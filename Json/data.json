@@ -1,0 +1,50 @@
+{
+    
+    "title": "memory",
+    "stories": [
+        {
+            "id": "s1",
+            "datetime": "1939-1945",
+            "title": "nonna ale",
+            "contents": [
+                {
+                    "id": "co1",
+                    "title": "video",
+                    "url": "",
+                    "type": "video"
+                },
+                {
+                   "id": "co2",
+                    "title": "testo",
+                    "url": "",
+                    "type": "testo" 
+                }
+            ],
+            "characters": [
+                {
+                    "id": "ch1",
+                    "name": "amina",
+                    "surname":"del bravo",
+                    "birthDate": "1910"
+                }
+            ],
+            "places": [
+                {
+                    "id": "p1",
+                    "name": "",
+                    "latitude": "",
+                    "longitude": ""
+                }
+            ],
+            "events": [
+                {
+                    "id": "e1",
+                    "name": "Seconda Guerra Mondiale",
+                    "start": 1939,
+                    "end": 1945
+                }
+            ],
+            "tag":""
+        }
+    ]
+}
