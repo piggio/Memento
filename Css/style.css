@@ -1,9 +1,109 @@
-h1 {
+
+
+
+body {
     
     
-    color: aqua;
-    font-family: montserrat;
+    background-color: background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+    
+    
+}
+.mission {
+	background-color: transparent;
+    height: 100vh;
+    width: 100%;
+}
+
+.title {
+	
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-weight: 700;
+    color: #EAEAEA;
+}
+
+.paragraph{
+    
+    font-size: 21px;
+    font-family: Work Sans;
+    line-height: 24px;
+    font-weight: 200;
+    color: #EAEAEA;
+
+    
+}
+
+
+
+.categories {
+	height: 100vh;
+    
+}
+
+
+.cat-title {
+	font-family: Playfair Display;
+     font-size: 70px;
+    color: #EAEAEA;
+    
+}
+
+
+.events {
+    
+    height: 100vh;
+    
+   
+}
+
+.img-events {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Assets/img/Il_quotidiano_eritreo,_15_agosto_1945,_fine_della_seconda_guerra_mondiale.jpg);
+    background-size: cover;
+    -webkit-filter: blur(5px);
+-moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
+filter: blur(5px);
+    
+    
     
     
 }
 
+.places {
+    
+    
+    height: 100vh;
+    background-image: url(../Assets/img/rawpixel-com-211022.jpg);
+    background-size: cover;
+    
+    
+}
+
+
+
+.people {
+    
+     height: 100vh;
+    background-image: url(../Assets/img/nathalia-bariani-100947.jpg);
+    background-size: cover;
+    
+    
+    
+}
+
+.events h2 {
+    
+    
+    position: absolute;
+    z-index: 1;
+    
+    
+}
