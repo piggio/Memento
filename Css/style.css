@@ -1,109 +1,160 @@
-
-
-
 body {
-    
-    
-    background-color: background: #485563;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+
+    background-color: background: #485563;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+#logo{
     
+    font-family: gilroy;
+    font-weight: 600;
+    color: #EAEAEA;
+    font-size: 40px;
+    position: relative;
+    top: 15px;
     
     
     
 }
+
+
+
 .mission {
-	background-color: transparent;
+    background-color: transparent;
     height: 100vh;
     width: 100%;
 }
 
 .title {
-	
+
     font-family: Playfair Display;
     font-size: 100px;
     font-weight: 700;
     color: #EAEAEA;
 }
 
-.paragraph{
-    
+.paragraph {
+
     font-size: 21px;
     font-family: Work Sans;
     line-height: 24px;
     font-weight: 200;
     color: #EAEAEA;
 
-    
+
 }
 
 
 
 .categories {
-	height: 100vh;
-    
+    height: 100vh;
+
 }
+
+
+
 
 
 .cat-title {
-	font-family: Playfair Display;
-     font-size: 70px;
+    font-family: Playfair Display;
+    font-size: 70px;
     color: #EAEAEA;
-    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100vh;
+    text-shadow: 0px 1px 13px black;
+
 }
+
+
+
+
+
+
 
 
 .events {
-    
+
     height: 100vh;
+background-image: url(../Assets/img/Il_quotidiano_eritreo,_15_agosto_1945,_fine_della_seconda_guerra_mondiale.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ;
     
-   
+
 }
 
-.img-events {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../Assets/img/Il_quotidiano_eritreo,_15_agosto_1945,_fine_della_seconda_guerra_mondiale.jpg);
-    background-size: cover;
-    -webkit-filter: blur(5px);
--moz-filter: blur(5px);
--o-filter: blur(5px);
--ms-filter: blur(5px);
-filter: blur(5px);
+.events:hover {
     
-    
-    
-    
+
+background-image: url(../Assets/img/sfocata-events.jpg);
+   
+    transition: background-image 0.5s  ;
+
+
 }
+
+
+
 
 .places {
-    
-    
+
+
     height: 100vh;
     background-image: url(../Assets/img/rawpixel-com-211022.jpg);
     background-size: cover;
+    transition: background-image 0.5s ;
+
+}
+
+.places:hover{
+    
+    background-image: url(../Assets/img/sfocata-map.jpg);
+   
+    transition: background-image 0.5s ;
+    
     
     
 }
-
-
 
 .people {
-    
-     height: 100vh;
+
+    height: 100vh;
     background-image: url(../Assets/img/nathalia-bariani-100947.jpg);
     background-size: cover;
+    transition: background-image 0.5s ;
+
+
+
+}
+
+
+.people:hover{
     
+     
+    background-image: url(../Assets/img/sfocata-people.jpg);
+   
+    transition: background-image 0.5s ;
     
     
 }
 
+
+
+/*
 .events h2 {
-    
-    
+
+
     position: absolute;
     z-index: 1;
-    
-    
+
+
 }
+*/
