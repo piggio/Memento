@@ -99,10 +99,12 @@ border-bottom-color: #de595b;
 
 
 
+/*
 .categories {
     height: 100vh;
 
 }
+*/
 
 
 
@@ -192,6 +194,17 @@ background-image: url(../Assets/img/Unknownsfoc.jpg);
     
 }
 
+
+
+.stories {
+    
+    margin-top: 77px;
+    
+    
+    
+    
+    
+}
 
 
 /*
