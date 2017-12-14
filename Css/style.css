@@ -18,15 +18,61 @@ body {
     color: #EAEAEA;
     font-size: 40px;
     position: relative;
-    top: 15px;
+    top: 7px;
+    left: 18%;
     
     
     
 }
 
 
+.navstyle{
+    
+    
+    background-color: transparent !important;
+    
+}
 
-.mission {
+
+.navbar-light .navbar-nav .nav-link {
+    
+    
+    color: #EAEAEA; 
+} 
+    
+   
+    
+.navbar-nav {
+    
+    position: relative;
+    left: 56%;
+    
+    
+    
+}   
+  
+
+
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    
+ border-bottom-style: solid;
+border-bottom-width: 1px;
+border-bottom-color: #de595b;
+    color: #EAEAEA;
+    
+    
+}
+
+
+
+
+
+
+
+
+.section {
     background-color: transparent;
     height: 100vh;
     width: 100%;
@@ -69,7 +115,7 @@ body {
     text-align: center;
     vertical-align: middle;
     line-height: 100vh;
-    text-shadow: 0px 1px 13px black;
+    text-shadow: 0px 1px 13px rgba(0,0,0,0.5);
 
 }
 
@@ -83,10 +129,10 @@ body {
 .events {
 
     height: 100vh;
-background-image: url(../Assets/img/Il_quotidiano_eritreo,_15_agosto_1945,_fine_della_seconda_guerra_mondiale.jpg);
+background-image: url(../Assets/img/Unknown.jpeg);
     background-size: cover;
     background-position: center;
-    transition: background-image 0.5s ;
+    transition: background-image 0.5s ease-in-out;
     
 
 }
@@ -94,9 +140,9 @@ background-image: url(../Assets/img/Il_quotidiano_eritreo,_15_agosto_1945,_fine_
 .events:hover {
     
 
-background-image: url(../Assets/img/sfocata-events.jpg);
+background-image: url(../Assets/img/Unknownsfoc.jpg);
    
-    transition: background-image 0.5s  ;
+    transition: background-image 0.5s ease-in-out ;
 
 
 }
@@ -127,7 +173,7 @@ background-image: url(../Assets/img/sfocata-events.jpg);
 .people {
 
     height: 100vh;
-    background-image: url(../Assets/img/nathalia-bariani-100947.jpg);
+    background-image: url(../Assets/img/DSC_0426.jpg);
     background-size: cover;
     transition: background-image 0.5s ;
 
@@ -139,7 +185,7 @@ background-image: url(../Assets/img/sfocata-events.jpg);
 .people:hover{
     
      
-    background-image: url(../Assets/img/sfocata-people.jpg);
+    background-image: url(../Assets/img/DSC_0426sfoc.jpg);
    
     transition: background-image 0.5s ;
     
