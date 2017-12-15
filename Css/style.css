@@ -67,9 +67,38 @@ border-bottom-color: #de595b;
 
 
 
+nav button img {
+    
+        vertical-align: middle;
+    border-style: none;
+    width: 25px;
+    position: relative;
+    left: -5px;
+    
+    
+    
+    
+}
 
 
 
+.btn-outline-success {
+        color: #eaeaea;
+    background-color: #de595a;
+    background-image: none;
+    border-color: #de595b;
+    -webkit-transition: background-color 0.5s ease-in-out;
+}
+
+.btn-outline-success:hover {
+    color: #EAEAEA;
+    background-color: #ca5253;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    border-color: transparent;
+
+
+
+}
 
 
 .section {
@@ -227,9 +256,9 @@ border-left-color: #de595b;
 border-radius: .25rem;
 opacity: 1;
 visibility: visible;
-text-transform:uppercase;
+text-transform:none;
 text-align: left;
-text-transform: capitalize;
+
 font-style: normal;
 font-weight: lighter;
 
@@ -306,4 +335,3 @@ font-weight: lighter;
     
     
 }
-
