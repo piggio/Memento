@@ -13,12 +13,56 @@ body {
 
 #logo{
     
-    font-family: gilroy;
-    font-weight: 600;
-    color: #EAEAEA;
-    font-size: 40px;
+  
     position: relative;
-    top: 15px;
+    top: 7px;
+    left: 18%;
+    
+    
+    
+}
+
+
+nav a {
+    
+    
+    font-weight: 400;
+    
+    
+}
+
+
+
+.navstyle{
+    
+    
+    background-color: transparent !important;
+    
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    
+    
+    color: #EAEAEA; 
+} 
+    
+   
+    
+.navbar-nav {
+    
+    position: relative;
+    left: 9%;
+    
+    
+    
+}   
+  
+
+nav .upload {
+    
+    left: 9%;
+    position: relative;
     
     
     
@@ -26,7 +70,73 @@ body {
 
 
 
-.mission {
+.navbar-light .navbar-nav .nav-link:hover {
+    
+ border-bottom-style: solid;
+border-bottom-width: 1px;
+border-bottom-color: #de595b;
+    color: #EAEAEA;
+    
+    
+}
+
+
+
+nav button img {
+    
+        vertical-align: middle;
+    border-style: none;
+    width: 25px;
+    position: relative;
+    left: -5px;
+    
+    
+    
+    
+}
+
+
+
+.btn-outline-success {
+        color: #eaeaea;
+    background-color: #de595a;
+    background-image: none;
+    border-color: #de595b;
+    -webkit-transition: background-color 0.5s ease-in-out;
+}
+
+.btn-outline-success:hover {
+    color: #EAEAEA;
+    background-color: #ca5253;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    border-color: transparent;
+
+
+
+}
+
+
+nav span img {
+    
+    
+    
+    position: absolute;
+    width: 19px;
+    top: 10px;
+    left: 218px;
+
+    
+}
+
+nav input{
+    
+    
+    margin-left: 43px;
+    
+    
+}
+
+.section {
     background-color: transparent;
     height: 100vh;
     width: 100%;
@@ -53,10 +163,6 @@ body {
 
 
 
-.categories {
-    height: 100vh;
-
-}
 
 
 
@@ -69,7 +175,7 @@ body {
     text-align: center;
     vertical-align: middle;
     line-height: 100vh;
-    text-shadow: 0px 1px 13px black;
+    text-shadow: 0px 1px 13px rgba(0,0,0,0.5);
 
 }
 
@@ -83,10 +189,11 @@ body {
 .events {
 
     height: 100vh;
-background-image: url(../Assets/img/Il_quotidiano_eritreo,_15_agosto_1945,_fine_della_seconda_guerra_mondiale.jpg);
+background-image: url(../Assets/img/Unknown.jpeg);
     background-size: cover;
     background-position: center;
-    transition: background-image 0.5s ;
+    -webkit-transition: background-image 0.5s ease-in-out;
+    
     
 
 }
@@ -94,9 +201,9 @@ background-image: url(../Assets/img/Il_quotidiano_eritreo,_15_agosto_1945,_fine_
 .events:hover {
     
 
-background-image: url(../Assets/img/sfocata-events.jpg);
+background-image: url(../Assets/img/Unknownsfoc.jpg);
    
-    transition: background-image 0.5s  ;
+    -webkit-transition: background-image 0.5s ease-in-out ;
 
 
 }
@@ -110,7 +217,7 @@ background-image: url(../Assets/img/sfocata-events.jpg);
     height: 100vh;
     background-image: url(../Assets/img/rawpixel-com-211022.jpg);
     background-size: cover;
-    transition: background-image 0.5s ;
+    -webkit-transition: background-image 0.5s ease-in-out;
 
 }
 
@@ -118,7 +225,7 @@ background-image: url(../Assets/img/sfocata-events.jpg);
     
     background-image: url(../Assets/img/sfocata-map.jpg);
    
-    transition: background-image 0.5s ;
+    -webkit-transition: background-image 0.5s ease-in-out;
     
     
     
@@ -127,9 +234,9 @@ background-image: url(../Assets/img/sfocata-events.jpg);
 .people {
 
     height: 100vh;
-    background-image: url(../Assets/img/nathalia-bariani-100947.jpg);
+    background-image: url(../Assets/img/DSC_0426.jpg);
     background-size: cover;
-    transition: background-image 0.5s ;
+    -webkit-transition: background-image 0.5s ease-in-out;
 
 
 
@@ -139,22 +246,147 @@ background-image: url(../Assets/img/sfocata-events.jpg);
 .people:hover{
     
      
-    background-image: url(../Assets/img/sfocata-people.jpg);
+    background-image: url(../Assets/img/DSC_0426sfoc.jpg);
    
-    transition: background-image 0.5s ;
+    -webkit-transition: background-image 0.5s ease-in-out;
     
     
 }
 
 
 
-/*
-.events h2 {
-
-
-    position: absolute;
-    z-index: 1;
-
-
+.stories {
+    
+    margin-top: 77px;
+    
+    
+    
+    
+    
 }
-*/
+
+.card {
+    
+   position: relative;
+display: flex;
+display: flex;
+-ms-flex-direction: column;
+flex-direction: column;
+min-width: 0px;
+word-wrap: break-word;
+background-color: transparent;
+background-clip: border-box;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 11px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: rgba(0, 0, 0, 0.121569);
+border-right-color: rgba(0, 0, 0, 0.121569);
+border-bottom-color: rgba(0, 0, 0, 0.121569);
+border-left-color: #de595b;
+border-radius: .25rem;
+opacity: 1;
+visibility: visible;
+text-transform:none;
+text-align: left;
+
+font-style: normal;
+font-weight: lighter;
+
+ 
+    -webkit-transition: background-color 0.5s ease-in-out; 
+    
+    
+}
+
+
+   .list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+     background-color: transparent;
+    border: 1px solid #de595b;
+}
+
+
+
+.card {
+    -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
+}
+
+
+
+.card h4,li,a {
+    
+    
+    color: #EAEAEA;
+    
+    
+}
+
+
+.card h4{
+    
+    font-family: Work Sans;
+    font-weight: 500;
+    
+    
+}
+
+
+.card a,li{
+    
+    
+    font-family: Work Sans;
+    font-weight: 200;
+    
+}
+
+
+.card img{
+    
+    filter: grayscale(100%);
+     -webkit-transition: filter 0.5s ease-in-out;
+    
+}
+
+
+
+.card:hover img{
+    
+    
+    filter: grayscale(0%);
+     -webkit-transition: filter 0.5s ease-in-out;
+}
+
+
+.card:hover {
+    
+    
+     background-color: #323b46fc;
+     -webkit-transition:  background-color 0.5s ease-in-out;
+    
+}
+
+
+
+.list-group-flush .list-group-item:first-child {
+    
+    
+    border: none;
+    bottom: 20px;
+    font-style: oblique;
+    color: #de595b;
+    
+    
+}
+
+
+
+
+
