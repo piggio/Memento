@@ -13,10 +13,7 @@ body {
 
 #logo{
     
-    font-family: gilroy;
-    font-weight: 600;
-    color: #EAEAEA;
-    font-size: 40px;
+  
     position: relative;
     top: 7px;
     left: 18%;
@@ -24,6 +21,16 @@ body {
     
     
 }
+
+
+nav a {
+    
+    
+    font-weight: 400;
+    
+    
+}
+
 
 
 .navstyle{
@@ -45,13 +52,21 @@ body {
 .navbar-nav {
     
     position: relative;
-    left: 56%;
+    left: 9%;
     
     
     
 }   
   
 
+nav .upload {
+    
+    left: 9%;
+    position: relative;
+    
+    
+    
+}
 
 
 
@@ -100,6 +115,26 @@ nav button img {
 
 }
 
+
+nav span img {
+    
+    
+    
+    position: absolute;
+    width: 19px;
+    top: 10px;
+    left: 218px;
+
+    
+}
+
+nav input{
+    
+    
+    margin-left: 43px;
+    
+    
+}
 
 .section {
     background-color: transparent;
@@ -280,6 +315,12 @@ font-weight: lighter;
 
 
 
+.card {
+    -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
+}
+
+
+
 .card h4,li,a {
     
     
@@ -291,9 +332,18 @@ font-weight: lighter;
 
 .card h4{
     
-    font-family: Playfair Display;
-    font-weight: 300;
+    font-family: Work Sans;
+    font-weight: 500;
     
+    
+}
+
+
+.card a,li{
+    
+    
+    font-family: Work Sans;
+    font-weight: 200;
     
 }
 
@@ -335,3 +385,8 @@ font-weight: lighter;
     
     
 }
+
+
+
+
+
