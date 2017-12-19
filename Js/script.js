@@ -12,7 +12,6 @@ $.getJSON("Json/data.json", function (data) {
 
     for (var i = 0; i < 3; i++) {
 
-        console.log(i);
         var context = storie[i];
 
 

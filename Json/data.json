@@ -35,16 +35,16 @@
                     "name": "",
                     "region": "Toscana",
                     "province": "Pisa",
-                    "latitude": "45.465454",
-                    "longitude": "9.186515999999983"
+                    "latitude": 45.465454,
+                    "longitude": 9.186515999999983
                 }
                 , {
                     "id": "p2",
                     "name": "",
                     "region": "Toscana",
                     "province": "Firenze",
-                    "latitude": "43.7695604",
-                    "longitude": "11.25581360000001"
+                    "latitude": 43.7695604,
+                    "longitude": 11.25581360000001
                 }
             ],
             "events": [
@@ -91,8 +91,8 @@
                     "name": "Anzio",
                     "region": "Lazio",
                     "province": "Roma",
-                    "latitude": "41.44959549999999",
-                    "longitude": "12.619725300000027"
+                    "latitude": 41.44959549999999,
+                    "longitude": 12.619725300000027
                 }
             ],
             "events": [
@@ -139,8 +139,8 @@
                     "name": "",
                     "region": "Campania",
                     "province": "Napoli",
-                    "latitude": "40.8517746",
-                    "longitude": "14.268124400000033"
+                    "latitude": 40.8517746,
+                    "longitude": 14.268124400000033
                 }
             ],
             "events": [
@@ -187,8 +187,8 @@
                     "name": "",
                     "region": "Lazio",
                     "province": "Roma",
-                    "latitude": "41.9027835",
-                    "longitude": "12.496365500000024"
+                    "latitude": 41.9027835,
+                    "longitude": 12.496365500000024
                 }
             ],
             "events": [
