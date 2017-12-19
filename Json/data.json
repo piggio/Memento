@@ -5,7 +5,7 @@
             "id": "s1",
             "datetime": "1939-1945",
             "title": "nonna ale",
-            "cover": "",
+            "cover": "Assets/img/cards/4.jpg",
             "views": 1627,
             "contents": [
                 {
@@ -24,8 +24,8 @@
             "characters": [
                 {
                     "id": "ch1",
-                    "name": "amina",
-                    "surname": "del bravo",
+                    "name": "Amina",
+                    "surname": "Del Bravo",
                     "birthDate": "1910"
                 }
             ],
@@ -61,7 +61,7 @@
             "id": "s2",
             "datetime": "1939-1945",
             "title": "sbarco anzio",
-            "cover": "",
+            "cover": "Assets/img/cards/3.jpg",
             "views": 1036,
             "contents": [
                 {
@@ -107,9 +107,9 @@
         }
         , {
             "id": "s3",
-            "datetime": "1939-1945",
+            "datetime": "1965-1968",
             "title": "quattro giornate di napoli",
-            "cover": "",
+            "cover": "Assets/img/cards/2.jpg",
             "views": 423,
             "contents": [
                 {
@@ -157,7 +157,7 @@
             "id": "s4",
             "datetime": "1946-1949",
             "title": "votazione repubblica",
-            "cover": "",
+            "cover": "Assets/img/cards/1.jpg",
             "views": 230,
             "contents": [
                 {

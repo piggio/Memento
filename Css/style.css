@@ -391,7 +391,7 @@ nav input {
     font-style: normal;
     font-weight: lighter;
 
-
+    -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
     -webkit-transition: background-color 0.5s ease-in-out;
 
 
@@ -402,18 +402,18 @@ nav input {
     position: relative;
     display: block;
     padding: .75rem 1.25rem;
-    margin-bottom: -1px;
     background-color: transparent;
-    border: 1px solid #de595b;
+    border-top: 1px solid #de595b;
+}
+
+.list-group-item:last-child {
+    border-bottom: 1px solid #de595b;
 }
 
 
-
-.card {
-    -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
+h4::first-letter {
+    text-transform: capitalize
 }
-
-
 
 .card h4,
 li,
@@ -427,25 +427,31 @@ a {
 
 
 .card h4 {
-
     font-family: Work Sans;
     font-weight: 500;
+}
 
+.subtitle {
+    border: none;
+    bottom: 20px;
+    font-style: oblique;
+    color: #de595b;
+    margin: 0;
+}
 
+.card-title {
+    margin: 0
 }
 
 
 .card a,
 li {
-
-
     font-family: Work Sans;
     font-weight: 200;
-
 }
 
 
-.card img {
+.card .card-img-top {
 
     filter: grayscale(100%);
     -webkit-transition: filter 0.5s ease-in-out;
@@ -454,7 +460,7 @@ li {
 
 
 
-.card:hover img {
+.card:hover .card-img-top:hover {
 
 
     filter: grayscale(0%);
@@ -472,16 +478,7 @@ li {
 
 
 
-.list-group-flush .list-group-item:first-child {
 
-
-    border: none;
-    bottom: 20px;
-    font-style: oblique;
-    color: #de595b;
-
-
-}
 
 .card-img-top {
     border-top-left-radius: 0px;
