@@ -6,6 +6,63 @@
             "id": "s1",
             "datetime": "1939-1945",
             "title": "nonna ale",
+            "cover": "",
+            "views": 1627,
+            "contents": [
+                {
+                    "id": "co1",
+                    "title": "video",
+                    "url": "",
+                    "type": "video"
+                },
+                {
+                   "id": "co2",
+                    "title": "testo",
+                    "url": "",
+                    "type": "testo" 
+                }
+            ],
+            "characters": [
+                {
+                    "id": "ch1",
+                    "name": "amina",
+                    "surname":"del bravo",
+                    "birthDate": "1910"
+                }
+            ],
+            "places": [
+                {
+                    "id": "p1",
+                    "name": "",
+                    "region": "",
+                    "province": "",
+                    "latitude": "",
+                    "longitude": ""
+                },
+                {
+                    "id": "p2",
+                    "name": "",
+                    "region": "",
+                    "province": "",
+                    "latitude": "",
+                    "longitude": ""
+                }
+            ],
+            "events": [
+                {
+                    "id": "e1",
+                    "name": "Seconda Guerra Mondiale",
+                    "start": 1939,
+                    "end": 1945
+                }
+            ],
+            "tags": []
+        },
+        {
+            "id": "s2",
+            "datetime": "1939-1945",
+            "title": "nonna ale",
+            "cover": "",
             "contents": [
                 {
                     "id": "co1",
@@ -44,7 +101,97 @@
                     "end": 1945
                 }
             ],
-            "tag":""
+            "tags": []
+        },
+        {
+            "id": "s3",
+            "datetime": "1939-1945",
+            "title": "nonna ale",
+            "cover": "",
+            "contents": [
+                {
+                    "id": "co1",
+                    "title": "video",
+                    "url": "",
+                    "type": "video"
+                },
+                {
+                   "id": "co2",
+                    "title": "testo",
+                    "url": "",
+                    "type": "testo" 
+                }
+            ],
+            "characters": [
+                {
+                    "id": "ch1",
+                    "name": "amina",
+                    "surname":"del bravo",
+                    "birthDate": "1910"
+                }
+            ],
+            "places": [
+                {
+                    "id": "p1",
+                    "name": "",
+                    "latitude": "",
+                    "longitude": ""
+                }
+            ],
+            "events": [
+                {
+                    "id": "e1",
+                    "name": "Seconda Guerra Mondiale",
+                    "start": 1939,
+                    "end": 1945
+                }
+            ],
+            "tags": []
+        },
+        {
+            "id": "s4",
+            "datetime": "1939-1945",
+            "title": "nonna ale",
+            "cover": "",
+            "contents": [
+                {
+                    "id": "co1",
+                    "title": "video",
+                    "url": "",
+                    "type": "video"
+                },
+                {
+                   "id": "co2",
+                    "title": "testo",
+                    "url": "",
+                    "type": "testo" 
+                }
+            ],
+            "characters": [
+                {
+                    "id": "ch1",
+                    "name": "amina",
+                    "surname":"del bravo",
+                    "birthDate": "1910"
+                }
+            ],
+            "places": [
+                {
+                    "id": "p1",
+                    "name": "",
+                    "latitude": "",
+                    "longitude": ""
+                }
+            ],
+            "events": [
+                {
+                    "id": "e1",
+                    "name": "Seconda Guerra Mondiale",
+                    "start": 1939,
+                    "end": 1945
+                }
+            ],
+            "tags": []
         }
     ]
 }
