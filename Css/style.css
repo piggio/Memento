@@ -136,18 +136,45 @@ nav input {
 
 }
 
+
+.landing::before{
+    
+    
+   content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+    background-image:url(../Assets/img/roman-kraft-60298.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.intro{
+    margin: 0 auto;
+}
+
+
 .section {
     background-color: transparent;
     height: 100vh;
     width: 100%;
+    padding: 10%;
 }
 
 .title {
 
-    font-family: Playfair Display;
-    font-size: 100px;
+        font-family: Work Sans;
+    font-size: 70px;
     font-weight: 700;
     color: #EAEAEA;
+    text-align: center;
 }
 
 .paragraph {
@@ -157,33 +184,88 @@ nav input {
     line-height: 24px;
     font-weight: 200;
     color: #EAEAEA;
+    text-align: center;
 
 
 }
 
 
+.cta {
 
+    display: block;
+    margin: 0 auto ;
+
+
+}
 
 
 
 
 
 .cat-title {
-    font-family: Playfair Display;
+    font-family: Work Sans;
+    font-weight: 400;
     font-size: 70px;
     color: #EAEAEA;
     text-align: center;
-    vertical-align: middle;
-    line-height: 100vh;
+    
     text-shadow: 0px 1px 13px rgba(0, 0, 0, 0.5);
 
 }
 
 
 
+.cat-section {
+    
+    padding-right: 80px;
+    padding-left: 80px;
+    
+}
+
+.cat-jumbo{
+    
+    border-left-style: solid;
+    border-left-color: #de595b;
+    border-left-width: 11px;
+
+    border-left-style: solid;
+    border-left-color: #de595b;
+    border-radius: .25rem;
+    -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
+    
+    
+}
+
+
+.persone {
+    background-image: url(../Assets/img/DSC_0426.jpg);
+    background-size: cover;
+    background-position-y: 22%;
+    -webkit-transition: background-image 0.5s ease-in-out;
+}
 
 
 
+.eventi{
+    
+    background-image: url(../Assets/img/Unknown.jpeg);
+    background-size: cover;
+    background-position-y: 22%;
+    -webkit-transition: background-image 0.5s ease-in-out;
+    
+    
+    
+}
+
+.luoghi{
+    
+    background-image: url(../Assets/img/rawpixel-com-211022.jpg);
+    background-size: cover;
+    background-position-y: 22%;
+    -webkit-transition: background-image 0.5s ease-in-out;
+    
+    
+}
 
 
 .events {
@@ -198,7 +280,7 @@ nav input {
 
 }
 
-.events:hover {
+.eventi:hover {
 
 
     background-image: url(../Assets/img/Unknownsfoc.jpg);
@@ -221,7 +303,7 @@ nav input {
 
 }
 
-.places:hover {
+.luoghi:hover {
 
     background-image: url(../Assets/img/sfocata-map.jpg);
 
@@ -243,7 +325,7 @@ nav input {
 }
 
 
-.people:hover {
+.persone:hover {
 
 
     background-image: url(../Assets/img/DSC_0426sfoc.jpg);
@@ -392,12 +474,10 @@ card-img-top{
     
     
     width: 100%;
-    height: 500px;
+    
     margin-top: 77px;
     background-color: #EAEAEA;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
+    padding: 10%;
     
     
     
