@@ -137,6 +137,12 @@ nav input {
 }
 
 
+.login{
+    
+    position: relative;
+    margin-right: 20%;
+}
+
 .landing::before{
     
     
@@ -252,6 +258,7 @@ nav input {
     background-size: cover;
     background-position-y: 22%;
     -webkit-transition: background-image 0.5s ease-in-out;
+    margin-top: 77px;
     
     
     
@@ -463,7 +470,7 @@ li {
 
 }
 
-card-img-top{
+.card-img-top{
     border-top-left-radius: 0px;
 }
 
