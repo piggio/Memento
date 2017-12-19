@@ -23,6 +23,7 @@ body {
 }
 
 
+
 nav a {
 
 
@@ -95,7 +96,18 @@ nav button img {
 
 }
 
+.btn {
+    border: 0px;
+    border-radius: 0px;
+    border-left: 11px solid;
+    background-color: transparent !important;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 500;
+    border-color: #de595b;
+    color: #eaeaea;
 
+}
 
 .btn-outline-success {
     color: #eaeaea;
@@ -137,16 +149,16 @@ nav input {
 }
 
 
-.login{
-    
+.login {
+
     position: relative;
     margin-right: 20%;
 }
 
-.landing::before{
-    
-    
-   content: ' ';
+.landing::before {
+
+
+    content: ' ';
     display: block;
     position: absolute;
     left: 0;
@@ -155,14 +167,14 @@ nav input {
     height: 100%;
     z-index: -1;
     opacity: 0.2;
-    background-image:url(../Assets/img/roman-kraft-60298.jpg);
+    background-image: url(../Assets/img/roman-kraft-60298.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+
+
 }
 
-.intro{
+.intro {
     margin: 0 auto;
 }
 
@@ -176,7 +188,7 @@ nav input {
 
 .title {
 
-        font-family: Work Sans;
+    font-family: Work Sans;
     font-size: 70px;
     font-weight: 700;
     color: #EAEAEA;
@@ -199,7 +211,7 @@ nav input {
 .cta {
 
     display: block;
-    margin: 0 auto ;
+    margin: 0 auto;
 
 
 }
@@ -214,7 +226,7 @@ nav input {
     font-size: 70px;
     color: #EAEAEA;
     text-align: center;
-    
+
     text-shadow: 0px 1px 13px rgba(0, 0, 0, 0.5);
 
 }
@@ -222,14 +234,14 @@ nav input {
 
 
 .cat-section {
-    
+
     padding-right: 80px;
     padding-left: 80px;
-    
+
 }
 
-.cat-jumbo{
-    
+.cat-jumbo {
+
     border-left-style: solid;
     border-left-color: #de595b;
     border-left-width: 11px;
@@ -238,8 +250,8 @@ nav input {
     border-left-color: #de595b;
     border-radius: .25rem;
     -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
-    
-    
+
+
 }
 
 
@@ -252,26 +264,26 @@ nav input {
 
 
 
-.eventi{
-    
+.eventi {
+
     background-image: url(../Assets/img/Unknown.jpeg);
     background-size: cover;
     background-position-y: 22%;
     -webkit-transition: background-image 0.5s ease-in-out;
     margin-top: 77px;
-    
-    
-    
+
+
+
 }
 
-.luoghi{
-    
+.luoghi {
+
     background-image: url(../Assets/img/rawpixel-com-211022.jpg);
     background-size: cover;
     background-position-y: 22%;
     -webkit-transition: background-image 0.5s ease-in-out;
-    
-    
+
+
 }
 
 
@@ -365,11 +377,12 @@ nav input {
     background-color: transparent;
     background-clip: border-box;
     border: 0px;
-    border-left-width: 11px;
 
+    border-left-width: 11px;
     border-left-style: solid;
     border-left-color: #de595b;
-    border-radius: .25rem;
+    border-radius: 0;
+    border-top-right-radius: 6px;
     opacity: 1;
     visibility: visible;
     text-transform: none;
@@ -470,89 +483,84 @@ li {
 
 }
 
-.card-img-top{
+.card-img-top {
     border-top-left-radius: 0px;
+    border-top-right-radius: 6px;
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
 }
-
-
 
 
 .footer {
-    
-    
+
+
     width: 100%;
-    
+
     margin-top: 77px;
     background-color: #EAEAEA;
     padding: 10%;
-    
-    
-    
+
+
+
 }
 
 
-.footer img{
-    
+.footer img {
+
     width: 200px;
-    
-    
-    
-    
+
+
+
+
 }
 
 
-.footer-section {
-    
-    
-    
-    
-    
-    
-    
-}
+.footer-section {}
 
-.footer ul a{
-    
+.footer ul a {
+
     color: #6d6d6d;
     font-family: Work Sans;
     font-weight: 200;
-    
-    
+
+
 }
 
 
-.footer ul li{
-    
+.footer ul li {
+
     padding-bottom: 10px;
 }
 
 
-.footer ul{
-    
-    
+.footer ul {
+
+
     list-style-type: none;
-    
+
 }
 
 
 
 .footer p {
-    
-    
-     color: #6d6d6d;
+
+
+    color: #6d6d6d;
     font-family: Work Sans;
     font-weight: 200;
     margin-top: 10px;
-    
+
 }
 
 
 
-.footer h2{
-    
+.footer h2 {
+
     color: #6d6d6d;
     font-family: Work Sans;
     font-weight: 500;
-    
-    
+
+
 }
