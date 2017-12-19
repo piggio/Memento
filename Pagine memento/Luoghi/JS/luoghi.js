@@ -6,3 +6,7 @@ L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
     id: 'mapbox.streets',
     accessToken: 'your.mapbox.access.token'
 }).addTo(myMap);
+
+$.getJSON("../../Json/data.json", function (data) {
+
+})
