@@ -12,61 +12,40 @@ body {
 
 
 #logo {
-
-
     position: relative;
     top: 7px;
     left: 18%;
-
-
-
 }
 
 
 
 nav a {
-
-
     font-weight: 400;
-
-
 }
 
 
 
 .navstyle {
-
-
     background-color: transparent !important;
 
 }
 
 
 .navbar-light .navbar-nav .nav-link {
-
-
     color: #EAEAEA;
 }
 
 
 
 .navbar-nav {
-
     position: relative;
     left: 9%;
-
-
-
 }
 
 
 nav .upload {
-
     left: 9%;
     position: relative;
-
-
-
 }
 
 
@@ -77,8 +56,6 @@ nav .upload {
     border-bottom-width: 1px;
     border-bottom-color: #de595b;
     color: #EAEAEA;
-
-
 }
 
 
@@ -90,74 +67,52 @@ nav button img {
     width: 25px;
     position: relative;
     left: -5px;
-
-
-
-
 }
 
 .btn {
     border: 0px;
     border-radius: 0px;
-    border-left: 11px solid;
-    background-color: transparent !important;
-    font-size: 18px;
+    background-color: transparent;
     font-family: Work Sans;
-    font-weight: 500;
-    border-color: #de595b;
+    font-size: 15px;
+    font-weight: 200;
     color: #eaeaea;
-
+    border-left: 11px solid #de595b;
+    border-bottom: padding: 10px;
+    cursor: pointer;
 }
 
-.btn-outline-success {
+
+
+/*.btn
+   
+    border-left: 11px solid;
     color: #eaeaea;
-    background-color: #de595a;
     background-image: none;
-    border-color: #de595b;
+    border-color: #de595b;;
     -webkit-transition: background-color 0.5s ease-in-out;
-}
-
-.btn-outline-success:hover {
-    color: #EAEAEA;
-    background-color: #ca5253;
+    #ca5253;
     -webkit-transition: background-color 0.5s ease-in-out;
-    border-color: transparent;
-
-
-
-}
-
+    border-color: transparent;*/
 
 nav span img {
-
-
-
     position: absolute;
     width: 19px;
     top: 10px;
     left: 218px;
-
-
 }
 
 nav input {
-
-
     margin-left: 43px;
-
-
 }
 
 
 .login {
-
     position: relative;
     margin-right: 20%;
 }
 
 .landing::before {
-
-
     content: ' ';
     display: block;
     position: absolute;
@@ -170,8 +125,6 @@ nav input {
     background-image: url(../Assets/img/roman-kraft-60298.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 .intro {
@@ -187,7 +140,6 @@ nav input {
 }
 
 .title {
-
     font-family: Work Sans;
     font-size: 70px;
     font-weight: 700;
@@ -196,24 +148,18 @@ nav input {
 }
 
 .paragraph {
-
     font-size: 21px;
     font-family: Work Sans;
     line-height: 24px;
     font-weight: 200;
     color: #EAEAEA;
     text-align: center;
-
-
 }
 
 
 .cta {
-
     display: block;
     margin: 0 auto;
-
-
 }
 
 
@@ -228,20 +174,16 @@ nav input {
     text-align: center;
 
     text-shadow: 0px 1px 13px rgba(0, 0, 0, 0.5);
-
 }
 
 
 
 .cat-section {
-
     padding-right: 80px;
     padding-left: 80px;
-
 }
 
 .cat-jumbo {
-
     border-left-style: solid;
     border-left-color: #de595b;
     border-left-width: 11px;
@@ -250,8 +192,6 @@ nav input {
     border-left-color: #de595b;
     border-radius: .25rem;
     -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
-
-
 }
 
 
@@ -265,109 +205,72 @@ nav input {
 
 
 .eventi {
-
     background-image: url(../Assets/img/Unknown.jpeg);
     background-size: cover;
     background-position-y: 22%;
     -webkit-transition: background-image 0.5s ease-in-out;
     margin-top: 77px;
-
-
-
 }
 
 .luoghi {
-
     background-image: url(../Assets/img/rawpixel-com-211022.jpg);
     background-size: cover;
     background-position-y: 22%;
     -webkit-transition: background-image 0.5s ease-in-out;
-
-
 }
 
 
 .events {
-
     height: 100vh;
     background-image: url(../Assets/img/Unknown.jpeg);
     background-size: cover;
     background-position: center;
     -webkit-transition: background-image 0.5s ease-in-out;
-
-
-
 }
 
 .eventi:hover {
-
-
     background-image: url(../Assets/img/Unknownsfoc.jpg);
 
     -webkit-transition: background-image 0.5s ease-in-out;
-
-
 }
 
 
 
 
 .places {
-
-
     height: 100vh;
     background-image: url(../Assets/img/rawpixel-com-211022.jpg);
     background-size: cover;
     -webkit-transition: background-image 0.5s ease-in-out;
-
 }
 
 .luoghi:hover {
-
     background-image: url(../Assets/img/sfocata-map.jpg);
 
     -webkit-transition: background-image 0.5s ease-in-out;
-
-
-
 }
 
 .people {
-
     height: 100vh;
     background-image: url(../Assets/img/DSC_0426.jpg);
     background-size: cover;
     -webkit-transition: background-image 0.5s ease-in-out;
-
-
-
 }
 
 
 .persone:hover {
-
-
     background-image: url(../Assets/img/DSC_0426sfoc.jpg);
 
     -webkit-transition: background-image 0.5s ease-in-out;
-
-
 }
 
 
 
 .stories {
-
     margin-top: 77px;
-
-
-
-
-
 }
 
 .card {
-
     position: relative;
     display: flex;
     -ms-flex-direction: column;
@@ -377,7 +280,6 @@ nav input {
     background-color: transparent;
     background-clip: border-box;
     border: 0px;
-
     border-left-width: 11px;
     border-left-style: solid;
     border-left-color: #de595b;
@@ -387,14 +289,10 @@ nav input {
     visibility: visible;
     text-transform: none;
     text-align: left;
-
     font-style: normal;
     font-weight: lighter;
-
     -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
     -webkit-transition: background-color 0.5s ease-in-out;
-
-
 }
 
 
@@ -418,11 +316,7 @@ h4::first-letter {
 .card h4,
 li,
 a {
-
-
     color: #EAEAEA;
-
-
 }
 
 
@@ -452,28 +346,21 @@ li {
 
 
 .card .card-img-top {
-
     filter: grayscale(100%);
     -webkit-transition: filter 0.5s ease-in-out;
-
 }
 
 
 
 .card:hover .card-img-top:hover {
-
-
     filter: grayscale(0%);
     -webkit-transition: filter 0.5s ease-in-out;
 }
 
 
 .card:hover {
-
-
     background-color: #323b46fc;
     -webkit-transition: background-color 0.5s ease-in-out;
-
 }
 
 
@@ -491,75 +378,50 @@ li {
 
 
 .footer {
-
-
     width: 100%;
-
     margin-top: 77px;
     background-color: #EAEAEA;
     padding: 10%;
-
-
-
 }
 
 
 .footer img {
-
     width: 200px;
-
-
-
-
 }
 
 
-.footer-section {}
 
 .footer ul a {
-
     color: #6d6d6d;
     font-family: Work Sans;
     font-weight: 200;
-
-
 }
 
 
 .footer ul li {
-
     padding-bottom: 10px;
 }
 
 
 .footer ul {
-
-
     list-style-type: none;
-
 }
 
 
 
 .footer p {
-
-
     color: #6d6d6d;
     font-family: Work Sans;
     font-weight: 200;
     margin-top: 10px;
-
 }
 
 
 
 .footer h2 {
-
     color: #6d6d6d;
     font-family: Work Sans;
     font-weight: 500;
-
-
 }
 
 
