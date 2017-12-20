@@ -90,6 +90,7 @@ nav button img {
     width: 25px;
     position: relative;
     left: -5px;
+    
 
 
 
@@ -97,17 +98,23 @@ nav button img {
 }
 
 .btn {
-    border: 0px;
-    border-radius: 0px;
-    border-left: 11px solid;
+    border: 2px #de595b solid;
+  border-radius: 4px;
     background-color: transparent !important;
     font-size: 18px;
     font-family: Work Sans;
     font-weight: 500;
-    border-color: #de595b;
+    z-index: 1;
     color: #eaeaea;
 
 }
+
+
+
+
+
+
+
 
 .btn-outline-success {
     color: #eaeaea;
@@ -212,11 +219,45 @@ nav input {
 
     display: block;
     margin: 0 auto;
+    position: relative;
 
 
 }
 
 
+.cta:before{
+    
+    
+    content: "";
+  position: absolute;
+  background: #de595a;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  top: 0;
+  z-index: -1;
+  -webkit-transition: right 0.09s ease-in;
+    
+    
+    
+}
+
+
+
+.cta:hover:before {
+    
+    
+    right: 0;
+    
+}
+
+
+
+.cat a:hover {
+    color: #de595a;
+    text-decoration: underline;
+     -webkit-transition: text-decoration 0.5s ease-in-out;
+}
 
 
 
