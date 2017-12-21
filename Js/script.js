@@ -1,3 +1,23 @@
+
+
+
+
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 300) {
+      
+      
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
+
+
+
+
+
+
 $.getJSON("Json/data.json", function (data) {
 
     var storie = data.stories;
