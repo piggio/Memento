@@ -344,15 +344,39 @@
                 <div class="card-img-top" style=" background-image: url({{cover}})"></div>
                 <div class="card-body">
                     <h4 class="card-title">{{title}}</h4>
-                    <p class="subtitle">di Carlo Mancioli</p>
+                    <p class="subtitle"> di {{#each characters}}
+                {{name}} {{surname}}
+                        
+                        {{/each}}
+        
+        
+        </p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">{{datetime}}</li>
-                    <li class="list-group-item"></li>
+                    <li class="list-group-item">
+                        {{#each places}}
+                        {{region}} - {{name}} 
+                        {{/each}}
+                    </li>
                 </ul>
                 <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                    <a href="#" class="card-link">{{#each contents}}
+                        <span> <img style="height: 36px;" src="{{icon}}"></span>
+                        
+                        {{/each}}
+        
+        
+        
+        
+        </a>
+                    <a href="#" class="card-link">
+                        
+                        {{#each contents}}
+                        {{type}}
+                    {{/each}}
+        
+        </a>
                 </div>
             </div>
         </div>

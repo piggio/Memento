@@ -11,15 +11,10 @@
                 {
                     "id": "co1",
                     "title": "video",
-                    "url": "",
-                    "type": "video"
+                    "type": "Testimonianza video",
+                    "icon": "Assets/Icon/002-play-button.svg"
                 }
-                , {
-                    "id": "co2",
-                    "title": "testo",
-                    "url": "",
-                    "type": "testo"
-                }
+                 
             ],
             "characters": [
                 {
@@ -62,20 +57,15 @@
             "datetime": "1939-1945",
             "title": "sbarco anzio",
             "cover": "Assets/img/cards/3.jpg",
-            "views": 1036,
+            "views": 20,
             "contents": [
                 {
                     "id": "co1",
                     "title": "video",
-                    "url": "",
-                    "type": "video"
+                    "type": "Testimonianza video",
+                    "icon": "Assets/Icon/002-play-button.svg"
                 }
-                , {
-                    "id": "co2",
-                    "title": "testo",
-                    "url": "",
-                    "type": "testo"
-                }
+                 
             ],
             "characters": [
                 {
@@ -115,15 +105,10 @@
                 {
                     "id": "co1",
                     "title": "video",
-                    "url": "",
-                    "type": "video"
+                    "type": "Testimonianza video",
+                    "icon": "Assets/Icon/002-play-button.svg"
                 }
-                , {
-                    "id": "co2",
-                    "title": "testo",
-                    "url": "",
-                    "type": "testo"
-                }
+                 
             ],
             "characters": [
                 {
@@ -163,15 +148,10 @@
                 {
                     "id": "co1",
                     "title": "video",
-                    "url": "",
-                    "type": "video"
+                    "type": "Testimonianza video",
+                    "icon": "Assets/Icon/002-play-button.svg"
                 }
-                , {
-                    "id": "co2",
-                    "title": "testo",
-                    "url": "",
-                    "type": "testo"
-                }
+                
             ],
             "characters": [
                 {

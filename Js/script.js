@@ -9,22 +9,13 @@ $.getJSON("Json/data.json", function (data) {
 
     console.log(data);
 
-
-    for (var i = 0; i < 3; i++) {
-
-        var context = storie[i];
-
-
-
-
-        var html = template(context);
-
-        console.log(html);
-        $('#cards').append(html);
-
-
-
-    }
+    storie.sort(function (a, b) {
+            return b.views - a.views;
+        })
+        .slice(0, 3)
+        .forEach(function (s) {
+            $('#cards').append(template(s));
+        });
 
 
 
