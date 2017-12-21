@@ -4,7 +4,7 @@
         {
             "id": "s1",
             "datetime": "1939-1945",
-            "title": "nonna ale",
+            "title": "Invasione di stackoverflow",
             "cover": "Assets/img/cards/4.jpg",
             "views": 1627,
             "contents": [
@@ -27,17 +27,17 @@
             "places": [
                 {
                     "id": "p1",
-                    "name": "",
-                    "region": "Toscana",
-                    "province": "Pisa",
+                    "name": "Milano",
+                    "region": "Lombardia",
+                    "province": "Milano",
                     "latitude": 45.465454,
                     "longitude": 9.186515999999983
                 }
                 , {
                     "id": "p2",
-                    "name": "",
+                    "name": "Pisa",
                     "region": "Toscana",
-                    "province": "Firenze",
+                    "province": "Pisa",
                     "latitude": 43.7695604,
                     "longitude": 11.25581360000001
                 }
@@ -55,7 +55,7 @@
         , {
             "id": "s2",
             "datetime": "1939-1945",
-            "title": "sbarco anzio",
+            "title": "Sbarco di Anzio",
             "cover": "Assets/img/cards/3.jpg",
             "views": 20,
             "contents": [
@@ -98,7 +98,7 @@
         , {
             "id": "s3",
             "datetime": "1965-1968",
-            "title": "quattro giornate di napoli",
+            "title": "Quattro giornate di Napoli",
             "cover": "Assets/img/cards/2.jpg",
             "views": 423,
             "contents": [
@@ -113,15 +113,15 @@
             "characters": [
                 {
                     "id": "ch1",
-                    "name": "ivano",
-                    "surname": "il diavolo",
+                    "name": "Ivano",
+                    "surname": "il Diavolo",
                     "birthDate": "1938"
                 }
             ],
             "places": [
                 {
                     "id": "p4",
-                    "name": "",
+                    "name": "Napoli",
                     "region": "Campania",
                     "province": "Napoli",
                     "latitude": 40.8517746,
@@ -141,7 +141,7 @@
         , {
             "id": "s4",
             "datetime": "1946-1949",
-            "title": "votazione repubblica",
+            "title": "Votazione Repubblica",
             "cover": "Assets/img/cards/1.jpg",
             "views": 230,
             "contents": [
@@ -164,19 +164,11 @@
             "places": [
                 {
                     "id": "p5",
-                    "name": "Latina",
+                    "name": "Roma",
                     "region": "Lazio",
                     "province": "Roma",
                     "latitude": 41.9027835,
                     "longitude": 12.496365500000024
-                },
-                {
-                    "id": "p3",
-                    "name": "Anzio",
-                    "region": "Lazio",
-                    "province": "Roma",
-                    "latitude": 41.44959549999999,
-                    "longitude": 12.619725300000027
                 }
             ],
             "events": [
