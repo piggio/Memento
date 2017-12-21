@@ -18,8 +18,8 @@
 
     <!-- NAVBAR   -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navstyle">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg navbar-light navstyle fixed-top">
+        <a class="navbar-brand" href="landing-page.html">
             <p id="logo"><img src="Assets/Icon/logo%20memento.svg" style="width: 200px;"></p>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,10 +44,6 @@
                     <a class="nav-link" href="#">Storie</a>
                 </li>
                 <li class="nav-item">
-
-                    <a class="nav-link" href="#">Ita<span><img src="Assets/Icon/italy.svg"></span></a>
-
-
                 </li>
 
 
@@ -129,13 +125,13 @@
 
             <div class="col-lg-12 cat-section">
                 <a href="#">
-                <div class="jumbotron jumbotron-fluid cat-jumbo eventi">
-                    <div class="container">
+                    <div class="jumbotron jumbotron-fluid cat-jumbo eventi">
+                        <div class="container">
 
-                        <h1 class="display-3 cat-title">Eventi</h1>
+                            <h1 class="display-3 cat-title">Eventi</h1>
 
+                        </div>
                     </div>
-                </div>
                 </a>
 
             </div>
@@ -178,13 +174,13 @@
             <div class="col-lg-12 cat-section">
                 <a href="#">
 
-                <div class="jumbotron jumbotron-fluid cat-jumbo persone">
-                    <div class="container">
+                    <div class="jumbotron jumbotron-fluid cat-jumbo persone">
+                        <div class="container">
 
-                        <h1 class="display-3 cat-title">Persone</h1>
+                            <h1 class="display-3 cat-title">Persone</h1>
 
+                        </div>
                     </div>
-                </div>
 
                 </a>
             </div>
@@ -344,20 +340,15 @@
                 <div class="card-img-top" style=" background-image: url({{cover}})"></div>
                 <div class="card-body">
                     <h4 class="card-title">{{title}}</h4>
-                    <p class="subtitle"> di {{#each characters}}
-                {{name}} {{surname}}
-                        
-                        {{/each}}
-        
-        
-        </p>
+                    <p class="subtitle"> di {{#each characters}} {{name}} {{surname}} {{/each}}
+
+
+                    </p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">{{datetime}}</li>
                     <li class="list-group-item">
-                        {{#each places}}
-                        {{region}} - {{name}} 
-                        {{/each}}
+                        {{#each places}} {{region}} - {{name}} {{/each}}
                     </li>
                 </ul>
                 <div class="card-body">

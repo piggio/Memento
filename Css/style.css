@@ -54,7 +54,7 @@ nav .upload {
 
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: #de595b;
+    border-bottom-color: #C64F51;
     color: #EAEAEA;
 }
 
@@ -70,15 +70,15 @@ nav button img {
 }
 
 .btn {
-    border: 1px #de595b solid;
-   border-radius: 4px;
-      background-color: transparent !important;
-      font-size: 18px;
-      font-family: Work Sans;
-      font-weight: 500;
-     border-left: 11px solid #de595b;
-     z-index: 1;
-      color: #eaeaea;
+    border: 1px #C64F51 solid;
+    border-radius: 4px;
+    background-color: transparent !important;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 500;
+    border-left: 11px solid #C64F51;
+    z-index: 1;
+    color: #eaeaea;
 }
 
 
@@ -155,30 +155,30 @@ nav input {
 }
 
 
-.cta:before{
-     
-     
-     content: "";
-   position: absolute;
-   background: #de595a;
-   bottom: 0;
-   left: 0;
-   right: 100%;
-   top: 0;
-   z-index: -1;
-   -webkit-transition: right 0.09s ease-in;
-     
- }
- 
- .cta:hover:before {
-     right: 0;
- }
- 
- .cat a:hover {
-     color: #de595a;
-     text-decoration: underline;
-      -webkit-transition: text-decoration 0.5s ease-in-out;
- }
+.cta:before {
+
+
+    content: "";
+    position: absolute;
+    background: #C64F51;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: right 0.09s ease-in;
+
+}
+
+.cta:hover:before {
+    right: 0;
+}
+
+.cat a:hover {
+    color: #C64F51;
+    text-decoration: underline;
+    -webkit-transition: text-decoration 0.5s ease-in-out;
+}
 
 
 .cat-title {
@@ -200,11 +200,11 @@ nav input {
 
 .cat-jumbo {
     border-left-style: solid;
-    border-left-color: #de595b;
+    border-left-color: #C64F51;
     border-left-width: 11px;
 
     border-left-style: solid;
-    border-left-color: #de595b;
+    border-left-color: #C64F51;
     border-radius: .25rem;
     -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
 }
@@ -297,7 +297,7 @@ nav input {
     border: 0px;
     border-left-width: 11px;
     border-left-style: solid;
-    border-left-color: #de595b;
+    border-left-color: #C64F51;
     border-radius: 0;
     border-top-right-radius: 6px;
     opacity: 1;
@@ -316,11 +316,11 @@ nav input {
     display: block;
     padding: .75rem 1.25rem;
     background-color: transparent;
-    border-top: 1px solid #de595b;
+    border-top: 1px solid #C64F51;
 }
 
 .list-group-item:last-child {
-    border-bottom: 1px solid #de595b;
+    border-bottom: 1px solid #C64F51;
 }
 
 
@@ -344,7 +344,7 @@ a {
     border: none;
     bottom: 20px;
     font-style: oblique;
-    color: #de595b;
+    color: #C64F51;
     margin: 0;
 }
 
@@ -455,7 +455,3 @@ li {
     height: 100vh;
     background-color: antiquewhite;
 }
-
-
-
-
