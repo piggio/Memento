@@ -27,7 +27,7 @@ nav a {
 
 .navstyle {
     background-color: transparent;
-
+    height: 80px;
 }
 
 .shrink {
@@ -123,6 +123,10 @@ nav input {
     background-image: url(../Assets/img/roman-kraft-60298.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.landing {
+    margin-top: 80px;
 }
 
 .intro {
@@ -385,10 +389,6 @@ li {
     -webkit-transition: background-color 0.5s ease-in-out;
 }
 
-
-
-
-
 .card-img-top {
     border-top-left-radius: 0px;
     border-top-right-radius: 6px;
@@ -396,6 +396,8 @@ li {
     height: 180px;
     background-size: cover;
     background-position: center;
+    position: relative;
+    left:
 }
 
 
