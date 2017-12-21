@@ -26,7 +26,8 @@ nav a {
 
 
 .navstyle {
-    background-color: transparent !important!
+    background-color: transparent;
+
 }
 
 
@@ -69,35 +70,21 @@ nav button img {
 }
 
 .btn {
-    border: 0px;
-    border-radius: 0px;
-    background-color: transparent;
-    font-family: Work Sans;
-    font-size: 15px;
-    font-weight: 200;
-    color: #eaeaea;
-    border-left: 11px solid #de595b;
-    border-bottom: 0.5px solid #de595b;
-    border-bottom: padding: 10px;
-    cursor: pointer;
+    border: 1px #de595b solid;
+   border-radius: 4px;
+      background-color: transparent !important;
+      font-size: 18px;
+      font-family: Work Sans;
+      font-weight: 500;
+     border-left: 11px solid #de595b;
+     z-index: 1;
+      color: #eaeaea;
 }
 
 
-.btn:hover {
-    border-bottom: 0px;
-    border-left: 0px;
-}
 
-/*.btn
-   
-    border-left: 11px solid;
-    color: #eaeaea;
-    background-image: none;
-    border-color: #de595b;;
-    -webkit-transition: background-color 0.5s ease-in-out;
-    #ca5253;
-    -webkit-transition: background-color 0.5s ease-in-out;
-    border-color: transparent;*/
+
+
 
 nav span img {
     position: absolute;
@@ -164,10 +151,34 @@ nav input {
 .cta {
     display: block;
     margin: 0 auto;
+    position: relative;
 }
 
 
-
+.cta:before{
+     
+     
+     content: "";
+   position: absolute;
+   background: #de595a;
+   bottom: 0;
+   left: 0;
+   right: 100%;
+   top: 0;
+   z-index: -1;
+   -webkit-transition: right 0.09s ease-in;
+     
+ }
+ 
+ .cta:hover:before {
+     right: 0;
+ }
+ 
+ .cat a:hover {
+     color: #de595a;
+     text-decoration: underline;
+      -webkit-transition: text-decoration 0.5s ease-in-out;
+ }
 
 
 .cat-title {
@@ -444,3 +455,7 @@ li {
     height: 100vh;
     background-color: antiquewhite;
 }
+
+
+
+
