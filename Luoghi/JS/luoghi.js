@@ -9,21 +9,27 @@ L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
 
 $.getJSON("../../Json/data.json", function (data) {
 
-    var places = []; /* deve essere un obj con id dei luoghi */
+    var locations = {};
 
     data.stories.forEach(function (story) {
         story.places.forEach(function (place) {
-            places.push(place);
-
-            /* invece di avere elenco di storie con luoghi, dobbiamo avere elenco di luoghi con storie */
+            if (locations.hasOwnProperty(place.id)) {
+                locations[place.id]["infoStories"].push(story.title)
+            } else {
+                locations[place.id] = place;
+                locations[place.id]["infoStories"] = [story.title];
+            }
 
         });
     });
 
-    console.log(places);
+    console.log(locations);
 
-    places.forEach(function (place) {
-        L.marker([place.latitude, place.longitude]).addTo(myMap);
+    Object.values(locations).forEach(function (place) {
+        L
+            .marker([place.latitude, place.longitude])
+            .bindPopup("<b>" + place.infoStories.join(" <br> ") + "</b>" + "<br>" + place.name)
+            .addTo(myMap);
     })
 
 })

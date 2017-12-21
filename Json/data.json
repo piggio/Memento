@@ -14,7 +14,7 @@
                     "type": "Testimonianza video",
                     "icon": "Assets/Icon/002-play-button.svg"
                 }
-                 
+
             ],
             "characters": [
                 {
@@ -65,7 +65,7 @@
                     "type": "Testimonianza video",
                     "icon": "Assets/Icon/002-play-button.svg"
                 }
-                 
+
             ],
             "characters": [
                 {
@@ -77,7 +77,7 @@
             ],
             "places": [
                 {
-                    "id": "p1",
+                    "id": "p3",
                     "name": "Anzio",
                     "region": "Lazio",
                     "province": "Roma",
@@ -108,7 +108,7 @@
                     "type": "Testimonianza video",
                     "icon": "Assets/Icon/002-play-button.svg"
                 }
-                 
+
             ],
             "characters": [
                 {
@@ -120,7 +120,7 @@
             ],
             "places": [
                 {
-                    "id": "p2",
+                    "id": "p4",
                     "name": "",
                     "region": "Campania",
                     "province": "Napoli",
@@ -151,7 +151,7 @@
                     "type": "Testimonianza video",
                     "icon": "Assets/Icon/002-play-button.svg"
                 }
-                
+
             ],
             "characters": [
                 {
@@ -163,12 +163,20 @@
             ],
             "places": [
                 {
-                    "id": "p2",
-                    "name": "",
+                    "id": "p5",
+                    "name": "Latina",
                     "region": "Lazio",
                     "province": "Roma",
                     "latitude": 41.9027835,
                     "longitude": 12.496365500000024
+                },
+                {
+                    "id": "p3",
+                    "name": "Anzio",
+                    "region": "Lazio",
+                    "province": "Roma",
+                    "latitude": 41.44959549999999,
+                    "longitude": 12.619725300000027
                 }
             ],
             "events": [
