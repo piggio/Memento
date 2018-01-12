@@ -13,7 +13,7 @@ body {
 
 #logo {
     position: relative;
-    top: 7px;
+    top: 10px;
     left: 18%;
 }
 
@@ -28,13 +28,14 @@ nav a {
 .navstyle {
     background-color: transparent;
     height: 80px;
+    transition: all 0.1s;
 }
 
 .shrink {
-    
-    
-    background-color: #C64F51;
-    
+    background-color: rgba(198, 79, 81, 0.95);
+    height: 50px;
+    transition: height 0.1s;
+
 }
 
 
@@ -47,6 +48,8 @@ nav a {
 .navbar-nav {
     position: relative;
     left: 9%;
+    transition: height 0.1s;
+
 }
 
 
