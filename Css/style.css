@@ -28,13 +28,14 @@ nav a {
 .navstyle {
     background-color: transparent;
     height: 80px;
-    transition: all 0.1s;
+    transition: .2s ease-out;
 }
 
 .shrink {
     background-color: rgba(198, 79, 81, 0.95);
     height: 50px;
-    transition: height 0.1s;
+    transition: .2s ease-out;
+    ;
 
 }
 
