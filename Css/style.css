@@ -17,7 +17,9 @@ body {
     left: 18%;
 }
 
-
+.navbar {
+    position: fixed;
+}
 
 nav a {
     font-weight: 400;
@@ -57,7 +59,7 @@ nav a {
 nav .upload {
     left: 9%;
     position: relative;
-
+    font-size: 18px;
 }
 
 
@@ -86,7 +88,7 @@ nav button img {
     border: .8px #C64F51 solid;
     border-radius: .4rem;
     background-color: transparent !important;
-    font-size: 18px;
+    font-size: 21px;
     font-family: Work Sans;
     font-weight: 500;
     border-left: 11px solid #C64F51;
@@ -223,7 +225,7 @@ nav input {
 
     border-left-style: solid;
     border-left-color: #C64F51;
-    border-radius: .25rem;
+    border-radius: .4rem;
     -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
 }
 
@@ -317,7 +319,7 @@ nav input {
     border-left-style: solid;
     border-left-color: #C64F51;
     border-radius: 0;
-    border-top-right-radius: 6px;
+    border-top-right-radius: .4rem;
     opacity: 1;
     visibility: visible;
     text-transform: none;
@@ -398,7 +400,7 @@ li {
 
 .card-img-top {
     border-top-left-radius: 0px;
-    border-top-right-radius: 6px;
+    border-top-right-radius: .4rem;
     width: 100%;
     height: 180px;
     background-size: cover;

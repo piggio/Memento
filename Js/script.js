@@ -11,6 +11,7 @@ $(window).scroll(function () {
 $(function () {
     $.scrollify({
         section: "section",
+        interstitialSection: ".foot",
     });
 });
 
