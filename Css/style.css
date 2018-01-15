@@ -83,8 +83,7 @@ nav button img {
 
 .btn {
     border: .8px #C64F51 solid;
-    border-radius: 0px;
-    border-top-right-radius: .4rem;
+    border-radius: .4rem;
     background-color: transparent !important;
     font-size: 18px;
     font-family: Work Sans;
@@ -103,8 +102,8 @@ nav button img {
 
 .cta:before {
 
-    border-radius: 0px;
-    border-top-right-radius: .4rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     content: "";
     position: absolute;
     background: #C64F51;
