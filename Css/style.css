@@ -57,6 +57,7 @@ nav a {
 nav .upload {
     left: 9%;
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -81,8 +82,9 @@ nav button img {
 }
 
 .btn {
-    border: 1px #C64F51 solid;
-    border-radius: 4px;
+    border: .8px #C64F51 solid;
+    border-radius: 0px;
+    border-top-right-radius: .4rem;
     background-color: transparent !important;
     font-size: 18px;
     font-family: Work Sans;
@@ -92,7 +94,32 @@ nav button img {
     color: #eaeaea;
 }
 
+.centerBtn {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
 
+
+.cta:before {
+
+    border-radius: 0px;
+    border-top-right-radius: .4rem;
+    content: "";
+    position: absolute;
+    background: #C64F51;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: right .09s ease-in;
+
+}
+
+.cta:hover:before {
+    right: 0;
+}
 
 
 
@@ -163,31 +190,7 @@ nav input {
 }
 
 
-.cta {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-}
 
-
-.cta:before {
-
-
-    content: "";
-    position: absolute;
-    background: #C64F51;
-    bottom: 0;
-    left: 0;
-    right: 100%;
-    top: 0;
-    z-index: -1;
-    -webkit-transition: right 0.09s ease-in;
-
-}
-
-.cta:hover:before {
-    right: 0;
-}
 
 .cat a:hover {
     color: #C64F51;

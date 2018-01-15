@@ -36,7 +36,7 @@
                 </li>
 
             </ul>
-            <button class="btn btn-outline-success my-2 my-sm-0 upload" type="submit"><img src="Assets/Icon/cloud-computing.svg">UPLOAD</button>
+            <button class="btn my-2 my-sm-0 upload cta" type="submit"><img src="Assets/Icon/cloud-computing.svg">UPLOAD</button>
             <ul class="navbar-nav">
                 <li class="nav-item ">
                     <a class="nav-link" href="#" style="margin-left: 30px;">Categorie <span class="sr-only">(current)</span></a>
@@ -85,7 +85,7 @@
 
                 <p class="testomission paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                <button class="btn my-2 my-sm-0 cta" type="submit">SCOPRI LA NOSTRA MISSION</button>
+                <button class="btn my-2 my-sm-0 cta centerBtn" type="submit">SCOPRI LA NOSTRA MISSION</button>
 
             </div>
         </div>
@@ -327,24 +327,18 @@
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/jquery.scrollify.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
 
     <script id="entry-template" type="text/x-handlebars-template">
-
-
         <div class="col-lg-4">
-
             <div class="card card-style">
-
                 <div class="card-img-top" style=" background-image: url({{cover}})"></div>
                 <div class="card-body">
                     <h4 class="card-title">{{title}}</h4>
-                    <p class="subtitle"> di {{#each characters}} {{name}} {{surname}} {{/each}}
-
-
-                    </p>
+                    <p class="subtitle"> di {{#each characters}} {{name}} {{surname}} {{/each}} </p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">{{datetime}}</li>
@@ -355,39 +349,19 @@
                 <div class="card-body">
                     <a href="#" class="card-link">{{#each contents}}
                         <span> <img style="height: 36px;" src="{{icon}}"></span>
-                        
                         {{/each}}
-        
-        
-        
-        
-        </a>
+                    </a>
                     <a href="#" class="card-link">
-                        
                         {{#each contents}}
                         {{type}}
                     {{/each}}
-        
-        </a>
+                    </a>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
     </script>
 
-
-
-
-
     <script type="text/javascript" src="Js/script.js"></script>
-
-    <script src="jquery.panelSnap.js"></script>
-
 
 </body>
 
