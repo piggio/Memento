@@ -57,7 +57,7 @@ nav a {
 nav .upload {
     left: 9%;
     position: relative;
-    cursor: pointer;
+
 }
 
 
@@ -82,6 +82,7 @@ nav button img {
 }
 
 .btn {
+    cursor: pointer;
     border: .8px #C64F51 solid;
     border-radius: .4rem;
     background-color: transparent !important;
@@ -101,7 +102,7 @@ nav button img {
 
 
 .cta:before {
-
+    border-radius: .4rem;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     content: "";
