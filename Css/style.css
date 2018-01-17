@@ -143,23 +143,14 @@ nav input {
     margin-right: 20%;
 }
 
-.landing::before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.2;
+.land {
     background-image: url(../Assets/img/roman-kraft-60298.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .landing {
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 .intro {
@@ -167,8 +158,12 @@ nav input {
 }
 
 
+section:not(.land) {
+    padding-top: 80px;
+}
+
 .section {
-    background-color: transparent;
+    background-color: rgba(41, 51, 61, 0.8);
     height: 100vh;
     width: 100%;
     padding: 10%;
@@ -300,10 +295,6 @@ nav input {
 }
 
 
-
-.stories {
-    margin-top: 77px;
-}
 
 .card {
     position: relative;
