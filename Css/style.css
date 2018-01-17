@@ -13,8 +13,9 @@ body {
 
 #logo {
     position: relative;
-    top: 10px;
+    top: 9px;
     left: 18%;
+    padding-bottom: 1px;
 }
 
 .navbar {
@@ -186,8 +187,9 @@ section:not(.land) {
     text-align: center;
 }
 
-
-
+.catg {
+    margin-bottom: 80px;
+}
 
 .cat a:hover {
     color: #C64F51;
@@ -202,7 +204,6 @@ section:not(.land) {
     font-size: 70px;
     color: #EAEAEA;
     text-align: center;
-
     text-shadow: 0px 1px 13px rgba(0, 0, 0, 0.5);
 }
 
