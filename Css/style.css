@@ -15,9 +15,12 @@ body {
     position: relative;
     top: 9px;
     left: 18%;
+    width: 200px;
 }
 
-
+.whiteLogo{
+    fill: #fff;
+}
 
 .navbar {
     position: fixed;
@@ -470,19 +473,11 @@ li {
     background-color: antiquewhite;
 }
 
-<<<<<<< HEAD
+
 .box {
     margin-top: 50px;
 }
-=======
+
 .BtnProdotto {
-    
-    display: inline;
-    
-    
-    
+    display: inline;  
 }
-
-
-
->>>>>>> cd571fb3714e44706ce459399e89efa6c51b57bd

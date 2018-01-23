@@ -2,8 +2,10 @@ $(window).scroll(function () {
     if ($(document).scrollTop() > 50) {
 
         $('nav').addClass('shrink');
+        $('#Livello_1-2').addClass('whiteLogo');
     } else {
         $('nav').removeClass('shrink');
+        $('#Livello_1-2').removeClass('whiteLogo');
     }
 });
 
