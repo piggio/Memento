@@ -480,3 +480,79 @@ li {
 .BtnProdotto {
     display: inline;  
 }
+
+
+iframe {
+    
+   margin-top: 20px; 
+    
+    
+}
+
+
+
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+			color: #fff;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+            font-weight: 500;
+		}
+
+		ul.tabs li.current{
+			background: #C64F51;
+			color:  #fff;
+		}
+
+		.tab-content{
+			display: none;
+			background: #C64F51;
+			padding: 15px;
+            color: #fff;
+            font-weight: 300;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+
+
+
+
+.videobox {
+    
+       margin-top: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+
+
+.setab {
+    
+    width: 400px;
+    margin-top: 60px;
+    
+ 
+    
+    
+    
+}
+
+
+
+.tabstyle {
+    
+  width: 400px;
+    font-family: Work Sans;
+    
+}
