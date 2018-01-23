@@ -28,6 +28,8 @@ $.getJSON("Json/data.json", function (data) {
     var source = document.getElementById("entry-template").innerHTML;
     var template = Handlebars.compile(source);
 
+    console.log(data);
+
     storie.sort(function (a, b) {
             return b.views - a.views;
         })
@@ -35,12 +37,9 @@ $.getJSON("Json/data.json", function (data) {
         .forEach(function (s) {
             $('#cards').append(template(s));
         });
-
-
-<<<<<<< HEAD
 });
 
-<<<<<<< HEAD
+
 $("#scrollbtn").click(function() {
     $('html, body').animate({
         scrollTop: $("#stories").offset().top
@@ -53,14 +52,3 @@ $("#catnav").click(function() {
     }, 1000);
 });
 
-
-=======
-
-//$.getJSON("Json/data.json", function (data) {}
->>>>>>> 13192efd999d8c88f4f175d4292dd565f741d176
-=======
-});
-
-
-//$.getJSON("Json/data.json", function (data) {}
->>>>>>> 13192efd999d8c88f4f175d4292dd565f741d176

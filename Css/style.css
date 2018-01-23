@@ -199,7 +199,7 @@ section:not(.land) {
 }
 
 .cat a:hover {
-    color: #C64 F51;
+    color: #C64F51;
     text-decoration: underline;
     -webkit-transition: text-decoration 0.5s ease-in-out;
 }
@@ -472,7 +472,6 @@ li {
     height: 100vh;
     background-color: antiquewhite;
 }
-
 
 .box {
     margin-top: 50px;
