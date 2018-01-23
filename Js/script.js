@@ -26,8 +26,6 @@ $.getJSON("Json/data.json", function (data) {
     var source = document.getElementById("entry-template").innerHTML;
     var template = Handlebars.compile(source);
 
-    console.log(data);
-
     storie.sort(function (a, b) {
             return b.views - a.views;
         })
@@ -37,5 +35,7 @@ $.getJSON("Json/data.json", function (data) {
         });
 
 
-
 });
+
+
+//$.getJSON("Json/data.json", function (data) {}

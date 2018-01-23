@@ -18,7 +18,42 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light navstyle fixed-top shrink">
+        <a class="navbar-brand" href="landing-page.html">
+            <p id="logo"><img src="../Assets/Icon/Logo.svg" style="width: 200px;"></p>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Chi siamo <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="margin-right: 30px;">Contatti</a>
+                </li>
+            </ul>
+            <button class="btn my-2 my-sm-0 upload cta" type="submit"><img src="Assets/Icon/cloud-computing.svg">UPLOAD</button>
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#" style="margin-left: 30px;">Categorie <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Storie</a>
+                </li>
+                <li class="nav-item">
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log in</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid box">
         <div class="row cat">
             <div class="col-lg-4 col-md regioni">
                 <form class="navbar-form navbar-left" role="search">
@@ -31,6 +66,7 @@
             <div id="mapSearch" class="col-lg-8 map"> </div>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="Js/luoghi.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
