@@ -35,6 +35,7 @@ $.getJSON("Json/data.json", function (data) {
         });
 
 
+<<<<<<< HEAD
 });
 
 <<<<<<< HEAD
@@ -52,6 +53,12 @@ $("#catnav").click(function() {
 
 
 =======
+
+//$.getJSON("Json/data.json", function (data) {}
+>>>>>>> 13192efd999d8c88f4f175d4292dd565f741d176
+=======
+});
+
 
 //$.getJSON("Json/data.json", function (data) {}
 >>>>>>> 13192efd999d8c88f4f175d4292dd565f741d176
