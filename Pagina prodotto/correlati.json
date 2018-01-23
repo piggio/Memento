@@ -1,185 +1,437 @@
 {
-    "title": "memory",
-    "stories": [
+    "title": "memory"
+    , "stories": [
         {
-            "id": "s1",
-            "datetime": "1939-1945",
-            "title": "Invasione di stackoverflow",
-            "cover": "../Assets/img/cards/4.jpg",
-            "views": 1627,
-            "contents": [
+            "id": "s1"
+            , "datetime": "1939-1945"
+            , "title": "Bombardamento di Milano"
+            , "cover": "Assets/img/cards/4.jpg"
+            , "views": 1627
+            , "contents": [
                 {
-                    "id": "co1",
-                    "title": "video",
-                    "type": "Testimonianza video",
-                    "icon": "../Assets/Icon/002-play-button.svg"
+                    "id": "co1"
+                    , "title": "video"
+                    , "type": "Testimonianza video"
+                    , "icon": "Assets/Icon/002-play-button.svg"
                 }
 
-            ],
-            "characters": [
+            ]
+            , "characters": [
                 {
-                    "id": "ch1",
-                    "name": "Amina",
-                    "surname": "Del Bravo",
-                    "birthDate": "1910"
+                    "id": "ch1"
+                    , "name": "Cinzia"
+                    , "surname": "Boni"
+                    , "birthDate": "1910"
                 }
-            ],
-            "places": [
+            ]
+            , "places": [
                 {
-                    "id": "p1",
-                    "name": "Milano",
-                    "region": "Lombardia",
-                    "province": "Milano",
-                    "latitude": 45.465454,
-                    "longitude": 9.186515999999983
+                    "id": "p1"
+                    , "name": "Milano"
+                    , "region": "Lombardia"
+                    , "province": "Milano"
+                    , "latitude": 45.465454
+                    , "longitude": 9.186515999999983
                 }
-                , {
-                    "id": "p2",
-                    "name": "Pisa",
-                    "region": "Toscana",
-                    "province": "Pisa",
-                    "latitude": 43.7695604,
-                    "longitude": 11.25581360000001
-                }
-            ],
-            "events": [
+            ]
+            , "events": [
                 {
-                    "id": "e1",
-                    "name": "Seconda Guerra Mondiale",
-                    "start": 1939,
-                    "end": 1945
+                    "id": "e1"
+                    , "name": "Seconda Guerra Mondiale"
+                    , "start": 1939
+                    , "end": 1945
                 }
-            ],
-            "tags": []
+            ]
+            , "tags": []
+        }
+
+        , {
+            "id": "s2"
+            , "datetime": "1939-1945"
+            , "title": "Sbarco di Anzio"
+            , "cover": "Assets/img/cards/3.jpg"
+            , "views": 20
+            , "contents": [
+                {
+                    "id": "co2"
+                    , "title": "video"
+                    , "type": "Testimonianza video"
+                    , "icon": "Assets/Icon/002-play-button.svg"
+                }
+
+            ]
+            , "characters": [
+                {
+                    "id": "ch2"
+                    , "name": "Oreste"
+                    , "surname": "Conti"
+                    , "birthDate": "1923"
+                }
+            ]
+            , "places": [
+                {
+                    "id": "p2"
+                    , "name": "Anzio"
+                    , "region": "Lazio"
+                    , "province": "Roma"
+                    , "latitude": 41.44959549999999
+                    , "longitude": 12.619725300000027
+                }
+            ]
+            , "events": [
+                {
+                    "id": "e2"
+                    , "name": "Seconda Guerra Mondiale"
+                    , "start": 1939
+                    , "end": 1945
+                }
+            ]
+            , "tags": []
+        }
+
+        , {
+            "id": "s3"
+            , "datetime": "1965-1968"
+            , "title": "Quattro giornate di Napoli"
+            , "cover": "Assets/img/cards/2.jpg"
+            , "views": 423
+            , "contents": [
+                {
+                    "id": "co3"
+                    , "title": "video"
+                    , "type": "Testimonianza video"
+                    , "icon": "Assets/Icon/002-play-button.svg"
+                }
+
+            ]
+            , "characters": [
+                {
+                    "id": "ch3"
+                    , "name": "Rosario"
+                    , "surname": "Esposito"
+                    , "birthDate": "1938"
+                }
+            ]
+            , "places": [
+                {
+                    "id": "p3"
+                    , "name": "Napoli"
+                    , "region": "Campania"
+                    , "province": "Napoli"
+                    , "latitude": 40.8517746
+                    , "longitude": 14.268124400000033
+                }
+            ]
+            , "events": [
+                {
+                    "id": "e3"
+                    , "name": "Seconda Guerra Mondiale"
+                    , "start": 1939
+                    , "end": 1945
+                }
+            ]
+            , "tags": []
+        }
+
+        , {
+            "id": "s4"
+            , "datetime": "1946-1949"
+            , "title": "Votazione Repubblica"
+            , "cover": "Assets/img/cards/1.jpg"
+            , "views": 230
+            , "contents": [
+                {
+                    "id": "co4"
+                    , "title": "video"
+                    , "type": "Testimonianza video"
+                    , "icon": "Assets/Icon/002-play-button.svg"
+                }
+
+            ]
+            , "characters": [
+                {
+                    "id": "ch4"
+                    , "name": "Lorenzo"
+                    , "surname": "Lo Duca"
+                    , "birthDate": "1929"
+                }
+            ]
+            , "places": [
+                {
+                    "id": "p4"
+                    , "name": "Roma"
+                    , "region": "Lazio"
+                    , "province": "Roma"
+                    , "latitude": 41.9027835
+                    , "longitude": 12.496365500000024
+                }
+            ]
+            , "events": [
+                {
+                    "id": "e4"
+                    , "name": "Dopoguerra"
+                    , "start": 1946
+                    , "end": 1949
+                }
+            ]
+            , "tags": []
         }
         , {
-            "id": "s2",
-            "datetime": "1939-1945",
-            "title": "Sbarco di Anzio",
-            "cover": "../Assets/img/cards/3.jpg",
-            "views": 20,
-            "contents": [
+            "id": "s5"
+            , "datetime": "1939-1945"
+            , "title": "Notte di Taranto"
+            , "cover": "Assets/img/cards/4.jpg"
+            , "views": 6012
+            , "contents": [
                 {
-                    "id": "co1",
-                    "title": "video",
-                    "type": "Testimonianza video",
-                    "icon": "../Assets/Icon/002-play-button.svg"
+                    "id": "co5"
+                    , "title": "video"
+                    , "type": "Testimonianza video"
+                    , "icon": "Assets/Icon/002-play-button.svg"
                 }
 
-            ],
-            "characters": [
+            ]
+            , "characters": [
                 {
-                    "id": "ch1",
-                    "name": "Michele",
-                    "surname": "Begarelli",
-                    "birthDate": "1923"
+                    "id": "ch5"
+                    , "name": "Anita"
+                    , "surname": "Coomer"
+                    , "birthDate": "1930"
                 }
-            ],
-            "places": [
+            ]
+            , "places": [
                 {
-                    "id": "p3",
-                    "name": "Anzio",
-                    "region": "Lazio",
-                    "province": "Roma",
-                    "latitude": 41.44959549999999,
-                    "longitude": 12.619725300000027
+                    "id": "p5"
+                    , "name": "Taranto"
+                    , "region": "Puglia"
+                    , "province": "Taranto"
+                    , "latitude": 45.465454
+                    , "longitude": 9.186515999999983
                 }
-            ],
-            "events": [
+            ]
+            , "events": [
                 {
-                    "id": "e1",
-                    "name": "Seconda Guerra Mondiale",
-                    "start": 1939,
-                    "end": 1945
+                    "id": "e5"
+                    , "name": "Seconda Guerra Mondiale"
+                    , "start": 1939
+                    , "end": 1945
                 }
-            ],
-            "tags": []
+            ]
+            , "tags": []
         }
+
         , {
-            "id": "s3",
-            "datetime": "1965-1968",
-            "title": "Quattro giornate di Napoli",
-            "cover": "../Assets/img/cards/2.jpg",
-            "views": 423,
-            "contents": [
+            "id": "s6"
+            , "datetime": "1939-1945"
+            , "title": "Fuga dalle Fosse Ardeatine"
+            , "cover": "Assets/img/cards/4.jpg"
+            , "views": 2916
+            , "contents": [
                 {
-                    "id": "co1",
-                    "title": "video",
-                    "type": "Testimonianza video",
-                    "icon": "../Assets/Icon/002-play-button.svg"
+                    "id": "co6"
+                    , "title": "video"
+                    , "type": "Testimonianza video"
+                    , "icon": "Assets/Icon/002-play-button.svg"
                 }
 
-            ],
-            "characters": [
+            ]
+            , "characters": [
                 {
-                    "id": "ch1",
-                    "name": "Ivano",
-                    "surname": "il Diavolo",
-                    "birthDate": "1938"
+                    "id": "ch6"
+                    , "name": "Enzo"
+                    , "surname": "Trentini"
+                    , "birthDate": "1927"
                 }
-            ],
-            "places": [
+            ]
+            , "places": [
                 {
-                    "id": "p4",
-                    "name": "Napoli",
-                    "region": "Campania",
-                    "province": "Napoli",
-                    "latitude": 40.8517746,
-                    "longitude": 14.268124400000033
+                    "id": "p6"
+                    , "name": "Roma"
+                    , "region": "Lazio"
+                    , "province": "Roma"
+                    , "latitude": 41.9027835
+                    , "longitude": 9.186515999999983
                 }
-            ],
-            "events": [
+            ]
+            , "events": [
                 {
-                    "id": "e1",
-                    "name": "Seconda Guerra Mondiale",
-                    "start": 1939,
-                    "end": 1945
+                    "id": "e6"
+                    , "name": "Seconda Guerra Mondiale"
+                    , "start": 1939
+                    , "end": 1945
                 }
-            ],
-            "tags": []
+            ]
+            , "tags": []
         }
+
         , {
-            "id": "s4",
-            "datetime": "1946-1949",
-            "title": "Votazione Repubblica",
-            "cover": "../Assets/img/cards/1.jpg",
-            "views": 230,
-            "contents": [
+            "id": "s7"
+            , "datetime": "1980-1989"
+            , "title": "Strage di Bologna"
+            , "cover": "Assets/img/cards/4.jpg"
+            , "views": 1349
+            , "contents": [
                 {
-                    "id": "co1",
-                    "title": "video",
-                    "type": "Testimonianza video",
-                    "icon": "../Assets/Icon/002-play-button.svg"
+                    "id": "co7"
+                    , "title": "audio"
+                    , "type": "Testimonianza audio"
+                    , "icon": "Assets/Icon/002-play-button.svg"
                 }
 
-            ],
-            "characters": [
+            ]
+            , "characters": [
                 {
-                    "id": "ch1",
-                    "name": "Bernardo",
-                    "surname": "Gentili",
-                    "birthDate": "1929"
+                    "id": "ch7"
+                    , "name": "Carmine"
+                    , "surname": "Luciani"
+                    , "birthDate": "1958"
                 }
-            ],
-            "places": [
+            ]
+            , "places": [
                 {
-                    "id": "p5",
-                    "name": "Roma",
-                    "region": "Lazio",
-                    "province": "Roma",
-                    "latitude": 41.9027835,
-                    "longitude": 12.496365500000024
+                    "id": "p7"
+                    , "name": "Bologna"
+                    , "region": "Emilia-Romagna"
+                    , "province": "Bologna"
+                    , "latitude": 44.494887
+                    , "longitude": 11.342616200000066
                 }
-            ],
-            "events": [
+            ]
+            , "events": [
                 {
-                    "id": "e1",
-                    "name": "Seconda Guerra Mondiale",
-                    "start": 1939,
-                    "end": 1945
+                    "id": "e7"
+                    , "name": "Strage di Bologna"
+                    , "start": 1980
+                    , "end": 1980
                 }
-            ],
-            "tags": []
+            ]
+            , "tags": []
+        }, {
+            "id": "s8"
+            , "datetime": "1945"
+            , "title": "Eccidio delle Foibe"
+            , "cover": "Assets/img/cards/4.jpg"
+            , "views": 3107
+            , "contents": [
+                {
+                    "id": "co8"
+                    , "title": "video"
+                    , "type": "Testimonianza video"
+                    , "icon": "Assets/Icon/002-play-button.svg"
+                }
+
+            ]
+            , "characters": [
+                {
+                    "id": "ch8"
+                    , "name": "Giacomo"
+                    , "surname": "Sancin"
+                    , "birthDate": "1931"
+                }
+            ]
+            , "places": [
+                {
+                    "id": "p8"
+                    , "name": "Trieste"
+                    , "region": "Friuli-Venezia-Giulia"
+                    , "province": "Trieste"
+                    , "latitude": 45.6495264
+                    , "longitude": 13.77681819999998
+                }
+            ]
+            , "events": [
+                {
+                    "id": "e8"
+                    , "name": "Foibe"
+                    , "start": 1943
+                    , "end": 1945
+                }
+            ]
+            , "tags": []
+        }, {
+            "id": "s9"
+            , "datetime": "1944"
+            , "title": "Rastrellemento della Casa di Ricovero Israelitica"
+            , "cover": "Assets/img/cards/4.jpg"
+            , "views": 1339
+            , "contents": [
+                {
+                    "id": "co9"
+                    , "title": "video"
+                    , "type": "Testimonianza video"
+                    , "icon": "Assets/Icon/002-play-button.svg"
+                }
+
+            ]
+            , "characters": [
+                {
+                    "id": "ch9"
+                    , "name": "Davide"
+                    , "surname": "Trevisan"
+                    , "birthDate": "1929"
+                }
+            ]
+            , "places": [
+                {
+                    "id": "p9"
+                    , "name": "Venezia"
+                    , "region": "Veneto"
+                    , "province": "Venezia"
+                    , "latitude": 45.4408474
+                    , "longitude": 12.31551509999997
+                }
+            ]
+            , "events": [
+                {
+                    "id": "e9"
+                    , "name": "Leggi Razziali"
+                    , "start": 1939
+                    , "end": 1945
+                }
+            ]
+            , "tags": []
+        }, {
+            "id": "s10"
+            , "datetime": "1986"
+            , "title": "Maxiprocesso di Palermo"
+            , "cover": "Assets/img/cards/4.jpg"
+            , "views": 2989
+            , "contents": [
+                {
+                    "id": "co10"
+                    , "title": "video"
+                    , "type": "Testimonianza video"
+                    , "icon": "Assets/Icon/002-play-button.svg"
+                }
+
+            ]
+            , "characters": [
+                {
+                    "id": "ch10"
+                    , "name": "Fabio"
+                    , "surname": "Caruso"
+                    , "birthDate": "1960"
+                }
+            ]
+            , "places": [
+                {
+                    "id": "p10"
+                    , "name": "Palermo"
+                    , "region": "Sicilia"
+                    , "province": "Palermo"
+                    , "latitude": 38.1156879
+                    , "longitude": 13.361267099999964
+                }
+            ]
+            , "events": [
+                {
+                    "id": "e10"
+                    , "name": "Leggi Razziali"
+                    , "start": 1986
+                    , "end": 1987
+                }
+            ]
+            , "tags": []
         }
     ]
 }
