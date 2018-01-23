@@ -165,10 +165,13 @@ section:not(.land) {
 }
 
 .section {
-    background-color: rgba(41, 51, 61, 0.8);
+       background-color: rgba(41, 51, 61, 0.8);
     height: 100vh;
     width: 100%;
-    padding: 10%;
+
+    padding-top: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .title {
@@ -467,6 +470,19 @@ li {
     background-color: antiquewhite;
 }
 
+<<<<<<< HEAD
 .box {
     margin-top: 50px;
 }
+=======
+.BtnProdotto {
+    
+    display: inline;
+    
+    
+    
+}
+
+
+
+>>>>>>> cd571fb3714e44706ce459399e89efa6c51b57bd
