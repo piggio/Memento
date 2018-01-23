@@ -1,0 +1,185 @@
+{
+    "title": "memory",
+    "stories": [
+        {
+            "id": "s1",
+            "datetime": "1939-1945",
+            "title": "Invasione di stackoverflow",
+            "cover": "../Assets/img/cards/4.jpg",
+            "views": 1627,
+            "contents": [
+                {
+                    "id": "co1",
+                    "title": "video",
+                    "type": "Testimonianza video",
+                    "icon": "../Assets/Icon/002-play-button.svg"
+                }
+
+            ],
+            "characters": [
+                {
+                    "id": "ch1",
+                    "name": "Amina",
+                    "surname": "Del Bravo",
+                    "birthDate": "1910"
+                }
+            ],
+            "places": [
+                {
+                    "id": "p1",
+                    "name": "Milano",
+                    "region": "Lombardia",
+                    "province": "Milano",
+                    "latitude": 45.465454,
+                    "longitude": 9.186515999999983
+                }
+                , {
+                    "id": "p2",
+                    "name": "Pisa",
+                    "region": "Toscana",
+                    "province": "Pisa",
+                    "latitude": 43.7695604,
+                    "longitude": 11.25581360000001
+                }
+            ],
+            "events": [
+                {
+                    "id": "e1",
+                    "name": "Seconda Guerra Mondiale",
+                    "start": 1939,
+                    "end": 1945
+                }
+            ],
+            "tags": []
+        }
+        , {
+            "id": "s2",
+            "datetime": "1939-1945",
+            "title": "Sbarco di Anzio",
+            "cover": "../Assets/img/cards/3.jpg",
+            "views": 20,
+            "contents": [
+                {
+                    "id": "co1",
+                    "title": "video",
+                    "type": "Testimonianza video",
+                    "icon": "../Assets/Icon/002-play-button.svg"
+                }
+
+            ],
+            "characters": [
+                {
+                    "id": "ch1",
+                    "name": "Michele",
+                    "surname": "Begarelli",
+                    "birthDate": "1923"
+                }
+            ],
+            "places": [
+                {
+                    "id": "p3",
+                    "name": "Anzio",
+                    "region": "Lazio",
+                    "province": "Roma",
+                    "latitude": 41.44959549999999,
+                    "longitude": 12.619725300000027
+                }
+            ],
+            "events": [
+                {
+                    "id": "e1",
+                    "name": "Seconda Guerra Mondiale",
+                    "start": 1939,
+                    "end": 1945
+                }
+            ],
+            "tags": []
+        }
+        , {
+            "id": "s3",
+            "datetime": "1965-1968",
+            "title": "Quattro giornate di Napoli",
+            "cover": "../Assets/img/cards/2.jpg",
+            "views": 423,
+            "contents": [
+                {
+                    "id": "co1",
+                    "title": "video",
+                    "type": "Testimonianza video",
+                    "icon": "../Assets/Icon/002-play-button.svg"
+                }
+
+            ],
+            "characters": [
+                {
+                    "id": "ch1",
+                    "name": "Ivano",
+                    "surname": "il Diavolo",
+                    "birthDate": "1938"
+                }
+            ],
+            "places": [
+                {
+                    "id": "p4",
+                    "name": "Napoli",
+                    "region": "Campania",
+                    "province": "Napoli",
+                    "latitude": 40.8517746,
+                    "longitude": 14.268124400000033
+                }
+            ],
+            "events": [
+                {
+                    "id": "e1",
+                    "name": "Seconda Guerra Mondiale",
+                    "start": 1939,
+                    "end": 1945
+                }
+            ],
+            "tags": []
+        }
+        , {
+            "id": "s4",
+            "datetime": "1946-1949",
+            "title": "Votazione Repubblica",
+            "cover": "../Assets/img/cards/1.jpg",
+            "views": 230,
+            "contents": [
+                {
+                    "id": "co1",
+                    "title": "video",
+                    "type": "Testimonianza video",
+                    "icon": "../Assets/Icon/002-play-button.svg"
+                }
+
+            ],
+            "characters": [
+                {
+                    "id": "ch1",
+                    "name": "Bernardo",
+                    "surname": "Gentili",
+                    "birthDate": "1929"
+                }
+            ],
+            "places": [
+                {
+                    "id": "p5",
+                    "name": "Roma",
+                    "region": "Lazio",
+                    "province": "Roma",
+                    "latitude": 41.9027835,
+                    "longitude": 12.496365500000024
+                }
+            ],
+            "events": [
+                {
+                    "id": "e1",
+                    "name": "Seconda Guerra Mondiale",
+                    "start": 1939,
+                    "end": 1945
+                }
+            ],
+            "tags": []
+        }
+    ]
+}

@@ -17,6 +17,8 @@ body {
     left: 18%;
 }
 
+
+
 .navbar {
     position: fixed;
 }
@@ -194,7 +196,7 @@ section:not(.land) {
 }
 
 .cat a:hover {
-    color: #C64F51;
+    color: #C64 F51;
     text-decoration: underline;
     -webkit-transition: text-decoration 0.5s ease-in-out;
 }
@@ -467,3 +469,20 @@ li {
     height: 100vh;
     background-color: antiquewhite;
 }
+
+<<<<<<< HEAD
+.box {
+    margin-top: 50px;
+}
+=======
+.BtnProdotto {
+    
+    display: inline;
+    
+    
+    
+}
+
+
+
+>>>>>>> cd571fb3714e44706ce459399e89efa6c51b57bd
