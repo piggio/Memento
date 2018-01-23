@@ -13,11 +13,12 @@
     <!--  Leaflet  -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light navstyle fixed-top shrink">
         <a class="navbar-brand" href="landing-page.html">
             <p id="logo"><img src="../Assets/Icon/Logo.svg" style="width: 200px;"></p>
@@ -54,24 +55,24 @@
     </nav>
 
     <div class="container-fluid box">
+            <div class="row cat">
 
-    <div class="container-fluid">
-        <div class="row cat">
-            <div class="col-lg-3 col-md regioni">
-                <form class="navbar-form navbar-left" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
+                <div class="col-lg-3 col-md regioni">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default search" aria-label="Left Align">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </span>
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </div>
-            <div id="mapSearch" class="col-lg-9 map"> </div>
+                </div>
+                 <div id="mapSearch" class="col-lg-9 map"> </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="Js/luoghi.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="jquery.scrollify.js"></script>
 
 
 

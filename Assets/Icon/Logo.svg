@@ -2,7 +2,7 @@
     <title>logo</title>
     <style>
         .cls-1{
-            fill: #C64F51;
+            fill: #fff /*#C64F51*/;
         }
     </style>
     <g id="Livello_2" data-name="Livello 2">

@@ -13,7 +13,7 @@ body {
 
 #logo {
     position: relative;
-    top: 9px;
+    top: 7px;
     left: 18%;
     width: 200px;
 }
@@ -467,6 +467,8 @@ li {
     background: linear-gradient(to right, #29323c, #485563);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+
 
 #mapSearch {
     height: 100vh;

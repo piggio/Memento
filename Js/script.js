@@ -10,13 +10,6 @@ $(window).scroll(function () {
 });
 
 
-/*$(function () {
-    $.scrollify({
-        section: "section",
-        interstitialSection: ".foot",
-    });
-});*/
-
 
 
 $.getJSON("Json/data.json", function (data) {
