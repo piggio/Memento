@@ -1,6 +1,4 @@
 body {
-
-
     background-color: background: #485563;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #29323c, #485563);
@@ -9,8 +7,6 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
-
 #logo {
     position: relative;
     top: 7px;
@@ -18,7 +14,7 @@ body {
     width: 200px;
 }
 
-.whiteLogo{
+.whiteLogo {
     fill: #fff;
 }
 
@@ -29,8 +25,6 @@ body {
 nav a {
     font-weight: 400;
 }
-
-
 
 .navstyle {
     background-color: transparent;
@@ -43,23 +37,17 @@ nav a {
     height: 50px;
     transition: .2s ease-out;
     ;
-
 }
-
 
 .navbar-light .navbar-nav .nav-link {
     color: #EAEAEA;
 }
 
-
-
 .navbar-nav {
     position: relative;
     left: 9%;
     transition: height 0.1s;
-
 }
-
 
 nav .upload {
     left: 9%;
@@ -67,20 +55,14 @@ nav .upload {
     font-size: 18px;
 }
 
-
-
 .navbar-light .navbar-nav .nav-link:hover {
-
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #C64F51;
     color: #EAEAEA;
 }
 
-
-
 nav button img {
-
     vertical-align: middle;
     border-style: none;
     width: 25px;
@@ -107,7 +89,6 @@ nav button img {
     position: relative;
 }
 
-
 .cta:before {
     border-radius: .4rem;
     border-top-left-radius: 0;
@@ -121,15 +102,11 @@ nav button img {
     top: 0;
     z-index: -1;
     -webkit-transition: right .09s ease-in;
-
 }
 
 .cta:hover:before {
     right: 0;
 }
-
-
-
 
 nav span img {
     position: absolute;
@@ -141,7 +118,6 @@ nav span img {
 nav input {
     margin-left: 43px;
 }
-
 
 .login {
     position: relative;
@@ -156,22 +132,21 @@ nav input {
 
 .landing {
     padding-top: 80px;
+    margin-bottom: 0px;
 }
 
 .intro {
     margin: 0 auto;
 }
 
-
 section:not(.land) {
     padding-top: 80px;
 }
 
 .section {
-       background-color: rgba(41, 51, 61, 0.8);
+    background-color: rgba(41, 51, 61, 0.8);
     height: 100vh;
     width: 100%;
-
     padding-top: 15%;
     padding-right: 5%;
     padding-left: 5%;
@@ -204,7 +179,6 @@ section:not(.land) {
     -webkit-transition: text-decoration 0.5s ease-in-out;
 }
 
-
 .cat-title {
     font-family: Work Sans;
     font-weight: 400;
@@ -213,8 +187,6 @@ section:not(.land) {
     text-align: center;
     text-shadow: 0px 1px 13px rgba(0, 0, 0, 0.5);
 }
-
-
 
 .cat-section {
     padding-right: 80px;
@@ -225,13 +197,11 @@ section:not(.land) {
     border-left-style: solid;
     border-left-color: #C64F51;
     border-left-width: 11px;
-
     border-left-style: solid;
     border-left-color: #C64F51;
     border-radius: .4rem;
     -webkit-box-shadow: 7px 8px 20px 0px rgb(43, 51, 60);
 }
-
 
 .persone {
     background-image: url(../Assets/img/DSC_0426.jpg);
@@ -239,8 +209,6 @@ section:not(.land) {
     background-position-y: 22%;
     -webkit-transition: background-image 0.5s ease-in-out;
 }
-
-
 
 .eventi {
     background-image: url(../Assets/img/Unknown.jpeg);
@@ -257,7 +225,6 @@ section:not(.land) {
     -webkit-transition: background-image 0.5s ease-in-out;
 }
 
-
 .events {
     height: 100vh;
     background-image: url(../Assets/img/Unknown.jpeg);
@@ -268,12 +235,8 @@ section:not(.land) {
 
 .eventi:hover {
     background-image: url(../Assets/img/Unknownsfoc.jpg);
-
     -webkit-transition: background-image 0.5s ease-in-out;
 }
-
-
-
 
 .places {
     height: 100vh;
@@ -284,7 +247,6 @@ section:not(.land) {
 
 .luoghi:hover {
     background-image: url(../Assets/img/sfocata-map.jpg);
-
     -webkit-transition: background-image 0.5s ease-in-out;
 }
 
@@ -295,14 +257,10 @@ section:not(.land) {
     -webkit-transition: background-image 0.5s ease-in-out;
 }
 
-
 .persone:hover {
     background-image: url(../Assets/img/DSC_0426sfoc.jpg);
-
     -webkit-transition: background-image 0.5s ease-in-out;
 }
-
-
 
 .card {
     position: relative;
@@ -329,7 +287,6 @@ section:not(.land) {
     -webkit-transition: background-color 0.5s ease-in-out;
 }
 
-
 .list-group-item {
     position: relative;
     display: block;
@@ -342,7 +299,6 @@ section:not(.land) {
     border-bottom: 1px solid #C64F51;
 }
 
-
 h4::first-letter {
     text-transform: capitalize
 }
@@ -352,7 +308,6 @@ li,
 a {
     color: #EAEAEA;
 }
-
 
 .card h4 {
     font-family: Work Sans;
@@ -371,26 +326,21 @@ a {
     margin: 0
 }
 
-
 .card a,
 li {
     font-family: Work Sans;
     font-weight: 200;
 }
 
-
 .card .card-img-top {
     filter: grayscale(100%);
     -webkit-transition: filter 0.5s ease-in-out;
 }
 
-
-
 .card:hover .card-img-top:hover {
     filter: grayscale(0%);
     -webkit-transition: filter 0.5s ease-in-out;
 }
-
 
 .card:hover {
     background-color: #323b46fc;
@@ -408,7 +358,6 @@ li {
     left:
 }
 
-
 .footer {
     width: 100%;
     margin-top: 77px;
@@ -416,12 +365,9 @@ li {
     padding: 10%;
 }
 
-
 .footer img {
     width: 200px;
 }
-
-
 
 .footer ul a {
     color: #6d6d6d;
@@ -429,17 +375,13 @@ li {
     font-weight: 200;
 }
 
-
 .footer ul li {
     padding-bottom: 10px;
 }
 
-
 .footer ul {
     list-style-type: none;
 }
-
-
 
 .footer p {
     color: #6d6d6d;
@@ -448,15 +390,11 @@ li {
     margin-top: 10px;
 }
 
-
-
 .footer h2 {
     color: #6d6d6d;
     font-family: Work Sans;
     font-weight: 500;
 }
-
-
 
 .regioni {
     height: 100vh;
@@ -468,8 +406,6 @@ li {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
-
 #mapSearch {
     height: 100vh;
     background-color: antiquewhite;
@@ -480,81 +416,57 @@ li {
 }
 
 .BtnProdotto {
-    display: inline;  
+    display: inline;
 }
-
 
 iframe {
-    
-   margin-top: 20px; 
-    
-    
+    margin-top: 20px;
 }
 
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
 
+ul.tabs li {
+    background: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
 
+ul.tabs li.current {
+    background: #C64F51;
+    color: #fff;
+}
 
-		ul.tabs{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		ul.tabs li{
-			background: none;
-			color: #fff;
-			display: inline-block;
-			padding: 10px 15px;
-			cursor: pointer;
-            font-weight: 500;
-		}
+.tab-content {
+    display: none;
+    background: #C64F51;
+    padding: 15px;
+    color: #fff;
+    font-weight: 300;
+}
 
-		ul.tabs li.current{
-			background: #C64F51;
-			color:  #fff;
-		}
-
-		.tab-content{
-			display: none;
-			background: #C64F51;
-			padding: 15px;
-            color: #fff;
-            font-weight: 300;
-		}
-
-		.tab-content.current{
-			display: inherit;
-		}
-
-
-
+.tab-content.current {
+    display: inherit;
+}
 
 .videobox {
-    
-       margin-top: 70px;
+    margin-top: 70px;
     margin-right: 10px;
     margin-left: 10px;
-    
-    
 }
-
-
 
 .setab {
-    
     width: 400px;
     margin-top: 60px;
-    
- 
-    
-    
-    
 }
 
-
-
 .tabstyle {
-    
-  width: 400px;
+    width: 400px;
     font-family: Work Sans;
-    
 }
