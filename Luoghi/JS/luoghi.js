@@ -29,7 +29,7 @@ $.getJSON("../../Json/data.json", function (data) {
     Object.values(locations).forEach(function (place) {
         L
             .marker([place.latitude, place.longitude])
-            .bindPopup("<b>" + place.name + "</b>" + "<br>" + "<ul><li>" + place.infoStories.join("</li><li>"))
+            .bindPopup("<b>" + place.name + "</b><br><ul><li>" + place.infoStories.join("</li><li>"))
             .addTo(myMap);
     })
 

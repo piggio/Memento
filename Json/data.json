@@ -205,8 +205,8 @@
                     , "name": "Taranto"
                     , "region": "Puglia"
                     , "province": "Taranto"
-                    , "latitude": 45.465454
-                    , "longitude": 9.186515999999983
+                    , "latitude": 40.476111
+                    , "longitude": 17.229722
                 }
             ]
             , "events": [
@@ -245,12 +245,12 @@
             ]
             , "places": [
                 {
-                    "id": "p6"
+                    "id": "p4"
                     , "name": "Roma"
                     , "region": "Lazio"
                     , "province": "Roma"
                     , "latitude": 41.9027835
-                    , "longitude": 9.186515999999983
+                    , "longitude": 12.496365500000024
                 }
             ]
             , "events": [

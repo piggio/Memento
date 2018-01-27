@@ -475,6 +475,10 @@ li {
     background-color: antiquewhite;
 }
 
+.mapList{
+    color: #333;
+}
+
 .box {
     margin-top: 50px;
 }
