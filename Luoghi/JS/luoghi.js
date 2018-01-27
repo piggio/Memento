@@ -35,14 +35,25 @@ $.getJSON("../Json/data.json", function (data) {
 
 })
 
-    
+
 /* PLUGIN CLUSTER */
-$('#searchInput').typeahead({
-source: {
-    pays: {
-        ajax: {
-            url: "../Json/data.json"
-        }
+
+
+
+var dataSource = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('places'),
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    prefetch: {
+        url: "../Json/data.json"
     }
-},
-})
+});
+
+
+dataSource.initialize();
+
+$('searchInput').typeahead({
+    highlight: true
+}, {
+    displayKey: 'name',
+    source: dataSource
+});
