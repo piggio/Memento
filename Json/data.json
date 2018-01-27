@@ -180,7 +180,7 @@
             "id": "s5"
             , "datetime": "1939-1945"
             , "title": "Notte di Taranto"
-            , "cover": "Assets/img/cards/4.jpg"
+            , "cover": "Assets/img/cards/7.jpg"
             , "views": 6012
             , "contents": [
                 {
@@ -224,7 +224,7 @@
             "id": "s6"
             , "datetime": "1939-1945"
             , "title": "Fuga dalle Fosse Ardeatine"
-            , "cover": "Assets/img/cards/4.jpg"
+            , "cover": "Assets/img/cards/6.jpg"
             , "views": 2916
             , "contents": [
                 {
@@ -268,7 +268,7 @@
             "id": "s7"
             , "datetime": "1980-1989"
             , "title": "Strage di Bologna"
-            , "cover": "Assets/img/cards/4.jpg"
+            , "cover": "Assets/img/cards/5.jpg"
             , "views": 1349
             , "contents": [
                 {
@@ -310,7 +310,7 @@
             "id": "s8"
             , "datetime": "1945"
             , "title": "Eccidio delle Foibe"
-            , "cover": "Assets/img/cards/4.jpg"
+            , "cover": "Assets/img/cards/9.jpg"
             , "views": 3107
             , "contents": [
                 {
@@ -352,7 +352,7 @@
             "id": "s9"
             , "datetime": "1944"
             , "title": "Rastrellemento della Casa di Ricovero Israelitica"
-            , "cover": "Assets/img/cards/4.jpg"
+            , "cover": "Assets/img/cards/10.jpg"
             , "views": 1339
             , "contents": [
                 {
@@ -394,7 +394,7 @@
             "id": "s10"
             , "datetime": "1986"
             , "title": "Maxiprocesso di Palermo"
-            , "cover": "Assets/img/cards/4.jpg"
+            , "cover": "Assets/img/cards/8.jpg"
             , "views": 2989
             , "contents": [
                 {
