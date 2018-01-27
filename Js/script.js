@@ -36,12 +36,12 @@ $.getJSON("Json/data.json", function (data) {
 $("#scrollbtn").click(function() {
     $('html, body').animate({
         scrollTop: $("#stories").offset().top
-    }, 1000);
+    }, 800);
 });
 
 $("#catnav").click(function() {
     $('html, body').animate({
         scrollTop: $("#cat").offset().top
-    }, 1000);
+    }, 800);
 });
 

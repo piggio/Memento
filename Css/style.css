@@ -9,7 +9,7 @@ body {
 
 #logo {
     position: relative;
-    top: 7px;
+    top: 10px;
     left: 18%;
     width: 200px;
 }
@@ -37,6 +37,10 @@ nav a {
     height: 50px;
     transition: .2s ease-out;
     ;
+}
+
+.margin {
+    padding-top: 50px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -396,6 +400,22 @@ li {
     font-weight: 500;
 }
 
+.input-group {
+    margin-top: 20px;
+}
+
+
+
+#searchInput {
+    padding: 6px 12px;
+    border: 0px;
+    border-bottom-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .regioni {
     height: 100vh;
     background-color: background: #485563;
@@ -411,12 +431,16 @@ li {
     background-color: antiquewhite;
 }
 
-.mapList{
+.mapList {
     color: #333;
 }
 
 .box {
     margin-top: 50px;
+}
+
+.height {
+    height: 100vh;
 }
 
 .BtnProdotto {

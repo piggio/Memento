@@ -8,7 +8,7 @@ L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
     accessToken: 'your.mapbox.access.token'
 }).addTo(myMap);
 
-$.getJSON("../../Json/data.json", function (data) {
+$.getJSON("../Json/data.json", function (data) {
 
     var locations = {};
 
@@ -35,5 +35,14 @@ $.getJSON("../../Json/data.json", function (data) {
 
 })
 
-
+    
 /* PLUGIN CLUSTER */
+$('#searchInput').typeahead({
+source: {
+    pays: {
+        ajax: {
+            url: "../Json/data.json"
+        }
+    }
+},
+})
