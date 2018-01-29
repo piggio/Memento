@@ -586,6 +586,7 @@ font-family: Work Sans,
 }
 
 .hvr-overline-from-left:before {
+<<<<<<< HEAD
   content: "";
   position: absolute;
   z-index: -1;
@@ -623,6 +624,8 @@ font-family: Work Sans,
 
 div#navbarNav {
     margin-left: 20%;
+=======
+>>>>>>> origin/master
     content: "";
     position: absolute;
     z-index: -1;
