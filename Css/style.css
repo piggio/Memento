@@ -184,6 +184,23 @@ section:not(.land) {
     text-align: center;
 }
 
+.titletto{
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    color: #EAEAEA;
+    text-align: left;
+}
+
+
+.subtitletto{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    color: #EAEAEA;
+    text-align: left;
+}
+
 .paragraph {
     font-size: 21px;
     font-family: Work Sans;
@@ -191,6 +208,15 @@ section:not(.land) {
     font-weight: 200;
     color: #EAEAEA;
     text-align: center;
+}
+
+.paragraphetto {
+    font-size: 15px;
+    font-family: Work Sans;
+    line-height: 24px;
+    font-weight: 200;
+    color: #EAEAEA;
+    text-align: left;
 }
 
 .catg {
@@ -475,12 +501,14 @@ li {
 .videoBox {
     margin-top: 70px;
     max-width: 100%;
+    margin-bottom: 30px;
 }
 
 .iframeBox {
     position: relative;
     background-color: transparent;
     padding-top: 31.9%;
+    background-color: #333333;
 }
 
 iframe {
@@ -497,8 +525,20 @@ iframe {
 
 
 .tabstyle {
+    width: 100%;
     display: inline-block;
     font-family: Work Sans;
+}
+
+
+.tab-content {
+    display: none;
+    background: #C64F51;
+    padding: 15px;
+    color: #fff;
+    font-weight: 300;
+    width: 100%;
+    height: 57.4vh;
 }
 
 ul.tabs {
@@ -518,6 +558,9 @@ ul.tabs li {
     text-transform: uppercase;
 }
 
+#mapScheda{
+    height: 54vh;
+}
 
 ul.tabs li.current {
     background: #C64F51;
@@ -525,14 +568,6 @@ ul.tabs li.current {
     transition: .2s ease;
 }
 
-.tab-content {
-    display: none;
-    background: #C64F51;
-    padding: 15px;
-    color: #fff;
-    font-weight: 300;
-    height: 57.4vh;
-}
 
 .leaflet-popup-content {
     font-family: Work Sans,

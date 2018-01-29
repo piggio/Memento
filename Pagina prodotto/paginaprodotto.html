@@ -8,7 +8,10 @@
     <meta name="keywords" content="">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../Css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,700i,900|Work+Sans:200,400,500" rel="stylesheet"> </head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,700i,900|Work+Sans:200,400,500" rel="stylesheet"> ù
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+</head>
 
 <body>
 
@@ -32,35 +35,24 @@
     </nav>
 
 
-    <div class="container" style="margin-top: 70px;">
-        <h1 class="title" style="text-align: left; font-size: 40px;">Sami Modiano racconta la Grecia</h1>
-    </div>
-    
-    <div class="container videoBox noMargin" >
-
+    <div class="container videoBox noMargin">
         <div class="row noMargin">
-
             <div class="col-lg-7 noMargin iframeBox" >
-
-                    <iframe src="https://www.youtube.com/embed/nP6Z_QXqyho" width="560" height="315" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+                    <iframe src="https://player.vimeo.com/video/166778676" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
-
             <div class="col-lg-5 noMargin setab">
-
                 <div class="tabstyle">
                     <ul class="tabs">
-                        <li class="current col-lg-3 hvr-overline-from-left" data-tab="tab-1">profilo</li>
-                        <li class="col-lg-3 hvr-overline-from-left" data-tab="tab-2">mappa</li>
+                        <li class=" col-lg-3 hvr-overline-from-left" data-tab="tab-1">profilo</li>
+                        <li class="current col-lg-3 hvr-overline-from-left" data-tab="tab-2">mappa</li>
                         <li class="col-lg-3 hvr-overline-from-left" data-tab="tab-3">trascrizione</li>
                         <li class="col-lg-3 hvr-overline-from-left" data-tab="tab-4">evento</li>
                     </ul>
-
-                    <div id="tab-1" class="tab-content current">
+                    <div id="tab-1" class="tab-content ">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </div>
-                    <div id="tab-2" class="tab-content">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <div id="tab-2" class="tab-content current">
+                        <div id="mapScheda" class="map"></div>
                     </div>
                     <div id="tab-3" class="tab-content">
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -68,42 +60,22 @@
                     <div id="tab-4" class="tab-content">
                         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </div>
-
-
-
                 </div>
-
-
             </div>
-
-
-
-
-
         </div>
-
-
-
-
-
-
-
-
     </div>
 
+   <div class="container" >
+        <h1 class="titletto">Sami Modiano racconta la Grecia</h1>
+    
 
+        <h2 class="subtitletto">Descrizione</h2>
 
-    <div class="container-fluid">
-
-        <h2 class="title" style="text-align: left; font-size: 40px;">Descrizione</h2>
-
-        <p class="paragraph" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus eleifend auctor. Curabitur et mi eget lectus lobortis scelerisque. Nunc scelerisque lectus in ex finibus, id ultrices libero semper. Vestibulum et dolor a libero sodales...
+        <p class="paragraphetto" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus eleifend auctor. Curabitur et mi eget lectus lobortis scelerisque. Nunc scelerisque lectus in ex finibus, id ultrices libero semper. Vestibulum et dolor a libero sodales...
 
         </p>
 
-    </div>
-
-
+</div>
 
 
 
