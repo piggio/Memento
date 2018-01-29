@@ -1,11 +1,15 @@
 $(window).scroll(function () {
     if ($(document).scrollTop() > 50) {
 
-        $('nav').addClass('shrink');
+        $('nav').addClass('shrink',);
         $('#Livello_1-2').addClass('whiteLogo');
+        $('.upload').removeClass('btn');
+        $('.upload').addClass('uploadWhite');
     } else {
         $('nav').removeClass('shrink');
         $('#Livello_1-2').removeClass('whiteLogo');
+        $('.upload').removeClass('uploadWhite');
+         $('.upload').addClass('btn');
     }
 });
 
@@ -35,13 +39,13 @@ $.getJSON("Json/data.json", function (data) {
 
 $("#scrollbtn").click(function() {
     $('html, body').animate({
-        scrollTop: $("#stories").offset().top
-    }, 800);
+        scrollTop: $("#stories").offset().top - 80
+    }, 800); 
 });
 
 $("#catnav").click(function() {
     $('html, body').animate({
-        scrollTop: $("#cat").offset().top
+        scrollTop: $("#cat").offset().top -80
     }, 800);
 });
 

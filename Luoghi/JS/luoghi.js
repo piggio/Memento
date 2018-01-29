@@ -24,36 +24,39 @@ $.getJSON("../Json/data.json", function (data) {
         });
     });
 
-    console.log(locations);
+    console.log(locations, Object.values(locations));
 
     Object.values(locations).forEach(function (place) {
         L
             .marker([place.latitude, place.longitude])
-            .bindPopup("<b>" + place.name + "</b><br><ul><li>" + place.infoStories.join("</li><li>"))
+            .bindPopup("<span>" + place.name + "</span><br><ul><li>" + place.infoStories.join("</li><li>"))
             .addTo(myMap);
     })
 
-})
+    /* PLUGIN CLUSTER */
+    var dataSource = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        identify: function (obj) {
+            return obj.id;
+        },
+        local: Object.values(locations)
+    });
 
 
-/* PLUGIN CLUSTER */
+    dataSource.initialize();
 
+    $('#searchInput').typeahead({
+        highlight: true,
+        minLength: 1,
+    }, {
+        name: 'cities',
+        display: 'name',
+        source: dataSource
+    });
+    console.log(data.stories.title)
+    $('#searchInput').bind('typeahead:select', function (e, suggestion) {
+        $('#results').append('<h1>' + data.stories.title + '</h1>')
+    });
 
-
-var dataSource = new Bloodhound({
-    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('places'),
-    queryTokenizer: Bloodhound.tokenizers.whitespace,
-    prefetch: {
-        url: "../Json/data.json"
-    }
-});
-
-
-dataSource.initialize();
-
-$('searchInput').typeahead({
-    highlight: true
-}, {
-    displayKey: 'name',
-    source: dataSource
 });
