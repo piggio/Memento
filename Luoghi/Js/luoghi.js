@@ -37,7 +37,9 @@ $.getJSON("../Json/data.json", function (data) {
     var dataSource = new Bloodhound({
         datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
         queryTokenizer: Bloodhound.tokenizers.whitespace,
-        identify: function(obj) { return obj.id; },
+        identify: function (obj) {
+            return obj.id;
+        },
         local: Object.values(locations)
     });
 
@@ -52,10 +54,9 @@ $.getJSON("../Json/data.json", function (data) {
         display: 'name',
         source: dataSource
     });
-
-    $('#searchInput').bind('typeahead:select', function(e, suggestion) {
-        console.log(suggestion);
+    console.log(data.stories)
+    $('#searchInput').bind('typeahead:select', function (e, suggestion) {
+        $('#results').append('<h1>' + data.stories.title + '</h1>')
     });
 
 });
-
