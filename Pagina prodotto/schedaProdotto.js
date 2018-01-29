@@ -63,7 +63,7 @@ $.getJSON("correlati.json", function (data) {
     console.log(data);
 
     storie.sort(function (a, b) {
-            return b.views - a.views;
+            return a.views - b.views;
         })
         .slice(0, 3)
         .forEach(function (s) {
@@ -73,3 +73,12 @@ $.getJSON("correlati.json", function (data) {
 
 
 });
+
+
+
+
+
+
+
+
+

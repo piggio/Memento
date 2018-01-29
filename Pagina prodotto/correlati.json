@@ -5,14 +5,14 @@
             "id": "s1"
             , "datetime": "1939-1945"
             , "title": "Bombardamento di Milano"
-            , "cover": "Assets/img/cards/4.jpg"
+            , "cover": "../Assets/img/cards/4.jpg"
             , "views": 1627
             , "contents": [
                 {
                     "id": "co1"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -49,14 +49,14 @@
             "id": "s2"
             , "datetime": "1939-1945"
             , "title": "Sbarco di Anzio"
-            , "cover": "Assets/img/cards/3.jpg"
+            , "cover": "../Assets/img/cards/3.jpg"
             , "views": 20
             , "contents": [
                 {
                     "id": "co2"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -93,14 +93,14 @@
             "id": "s3"
             , "datetime": "1965-1968"
             , "title": "Quattro giornate di Napoli"
-            , "cover": "Assets/img/cards/2.jpg"
+            , "cover": "../Assets/img/cards/2.jpg"
             , "views": 423
             , "contents": [
                 {
                     "id": "co3"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -137,14 +137,14 @@
             "id": "s4"
             , "datetime": "1946-1949"
             , "title": "Votazione Repubblica"
-            , "cover": "Assets/img/cards/1.jpg"
+            , "cover": "../Assets/img/cards/1.jpg"
             , "views": 230
             , "contents": [
                 {
                     "id": "co4"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -180,14 +180,14 @@
             "id": "s5"
             , "datetime": "1939-1945"
             , "title": "Notte di Taranto"
-            , "cover": "Assets/img/cards/7.jpg"
+            , "cover": "../Assets/img/cards/7.jpg"
             , "views": 6012
             , "contents": [
                 {
                     "id": "co5"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -224,14 +224,14 @@
             "id": "s6"
             , "datetime": "1939-1945"
             , "title": "Fuga dalle Fosse Ardeatine"
-            , "cover": "Assets/img/cards/6.jpg"
+            , "cover": "../Assets/img/cards/6.jpg"
             , "views": 2916
             , "contents": [
                 {
                     "id": "co6"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -268,14 +268,14 @@
             "id": "s7"
             , "datetime": "1980-1989"
             , "title": "Strage di Bologna"
-            , "cover": "Assets/img/cards/5.jpg"
+            , "cover": "../Assets/img/cards/5.jpg"
             , "views": 1349
             , "contents": [
                 {
                     "id": "co7"
                     , "title": "audio"
                     , "type": "Testimonianza audio"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -310,14 +310,14 @@
             "id": "s8"
             , "datetime": "1945"
             , "title": "Eccidio delle Foibe"
-            , "cover": "Assets/img/cards/9.jpg"
+            , "cover": "../Assets/img/cards/9.jpg"
             , "views": 3107
             , "contents": [
                 {
                     "id": "co8"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -352,14 +352,14 @@
             "id": "s9"
             , "datetime": "1944"
             , "title": "Rastrellemento della Casa di Ricovero Israelitica"
-            , "cover": "Assets/img/cards/10.jpg"
+            , "cover": "../Assets/img/cards/10.jpg"
             , "views": 1339
             , "contents": [
                 {
                     "id": "co9"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -394,14 +394,14 @@
             "id": "s10"
             , "datetime": "1986"
             , "title": "Maxiprocesso di Palermo"
-            , "cover": "Assets/img/cards/8.jpg"
+            , "cover": "../Assets/img/cards/8.jpg"
             , "views": 2989
             , "contents": [
                 {
                     "id": "co10"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
