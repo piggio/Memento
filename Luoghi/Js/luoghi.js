@@ -24,7 +24,7 @@ $.getJSON("../Json/data.json", function (data) {
         });
     });
 
-    console.log(locations);
+    console.log(locations, Object.values(locations));
 
     Object.values(locations).forEach(function (place) {
         L
@@ -33,27 +33,29 @@ $.getJSON("../Json/data.json", function (data) {
             .addTo(myMap);
     })
 
-})
+    /* PLUGIN CLUSTER */
+    var dataSource = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        identify: function(obj) { return obj.id; },
+        local: Object.values(locations)
+    });
 
 
-/* PLUGIN CLUSTER */
+    dataSource.initialize();
 
+    $('#searchInput').typeahead({
+        highlight: true,
+        minLength: 1,
+    }, {
+        name: 'cities',
+        display: 'name',
+        source: dataSource
+    });
 
+    $('#searchInput').bind('typeahead:select', function(e, suggestion) {
+        console.log(suggestion);
+    });
 
-var dataSource = new Bloodhound({
-    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('places'),
-    queryTokenizer: Bloodhound.tokenizers.whitespace,
-    prefetch: {
-        url: "../Json/data.json"
-    }
 });
 
-
-dataSource.initialize();
-
-$('searchInput').typeahead({
-    highlight: true
-}, {
-    displayKey: 'name',
-    source: dataSource
-});
