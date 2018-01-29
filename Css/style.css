@@ -464,13 +464,13 @@ li {
     max-width: 100%;
 }
 
-.iframeBox{
+.iframeBox {
     position: relative;
-    background-color: transparent; 
+    background-color: transparent;
     padding-top: 31.9%;
 }
 
-iframe{
+iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -493,7 +493,7 @@ ul.tabs {
     padding: 0px;
     list-style: none;
     display: flex;
-}   
+}
 
 ul.tabs li {
     background: none;
@@ -520,6 +520,36 @@ ul.tabs li.current {
     font-weight: 300;
 }
 
+.leaflet-popup-content{
+font-family: Work Sans,    
+}
+
+.leaflet-popup-content,
+.leaflet-popup-content li,
+.leaflet-popup-content a{
+    color: #444;
+    font-weight: 400;
+}
+
+.leaflet-popup-content li {
+    letter-spacing: -0.5px;
+    list-style: none;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.leaflet-popup-content ul{
+    padding-left: 0px;
+    padding-top: 5px;
+    margin-bottom: 2px;
+}
+
+.leaflet-popup-content span {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
 
 /*  HOVER EFFECTS 
     http://ianlunn.github.io/Hover/
@@ -527,30 +557,34 @@ ul.tabs li.current {
 */
 
 .hvr-overline-from-left {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  position: relative;
-  overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
 }
+
 .hvr-overline-from-left:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  top: 0;
-  background: #C64F51;
-  height: 4px;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    top: 0;
+    background: #C64F51;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
-.hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
-  right: 0;
+
+.hvr-overline-from-left:hover:before,
+.hvr-overline-from-left:focus:before,
+.hvr-overline-from-left:active:before {
+    right: 0;
 }

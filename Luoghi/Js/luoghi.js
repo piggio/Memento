@@ -29,7 +29,7 @@ $.getJSON("../Json/data.json", function (data) {
     Object.values(locations).forEach(function (place) {
         L
             .marker([place.latitude, place.longitude])
-            .bindPopup("<b>" + place.name + "</b><br><ul><li>" + place.infoStories.join("</li><li>"))
+            .bindPopup("<span>" + place.name + "</span><br><ul><li>" + place.infoStories.join("</li><li>"))
             .addTo(myMap);
     })
 
@@ -54,7 +54,7 @@ $.getJSON("../Json/data.json", function (data) {
         display: 'name',
         source: dataSource
     });
-    console.log(data.stories)
+    console.log(data.stories.title)
     $('#searchInput').bind('typeahead:select', function (e, suggestion) {
         $('#results').append('<h1>' + data.stories.title + '</h1>')
     });
