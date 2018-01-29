@@ -5,14 +5,14 @@
             "id": "s1"
             , "datetime": "1939-1945"
             , "title": "Bombardamento di Milano"
-            , "cover": "Assets/img/cards/4.jpg"
+            , "cover": "../Assets/img/cards/4.jpg"
             , "views": 1627
             , "contents": [
                 {
                     "id": "co1"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -49,14 +49,14 @@
             "id": "s2"
             , "datetime": "1939-1945"
             , "title": "Sbarco di Anzio"
-            , "cover": "Assets/img/cards/3.jpg"
+            , "cover": "../Assets/img/cards/3.jpg"
             , "views": 20
             , "contents": [
                 {
                     "id": "co2"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -180,14 +180,14 @@
             "id": "s5"
             , "datetime": "1939-1945"
             , "title": "Notte di Taranto"
-            , "cover": "Assets/img/cards/7.jpg"
+            , "cover": "../Assets/img/cards/7.jpg"
             , "views": 6012
             , "contents": [
                 {
                     "id": "co5"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -310,14 +310,14 @@
             "id": "s8"
             , "datetime": "1945"
             , "title": "Eccidio delle Foibe"
-            , "cover": "Assets/img/cards/9.jpg"
+            , "cover": "../Assets/img/cards/9.jpg"
             , "views": 3107
             , "contents": [
                 {
                     "id": "co8"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
@@ -394,14 +394,14 @@
             "id": "s10"
             , "datetime": "1986"
             , "title": "Maxiprocesso di Palermo"
-            , "cover": "Assets/img/cards/8.jpg"
+            , "cover": "../Assets/img/cards/8.jpg"
             , "views": 2989
             , "contents": [
                 {
                     "id": "co10"
                     , "title": "video"
                     , "type": "Testimonianza video"
-                    , "icon": "Assets/Icon/002-play-button.svg"
+                    , "icon": "../Assets/Icon/002-play-button.svg"
                 }
 
             ]
