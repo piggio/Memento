@@ -15,8 +15,7 @@ body {
 
 #logo {
     position: relative;
-    top: 6px;
-    ;
+    top: 11px;
     left: 18%;
     width: 200px;
 }
@@ -45,24 +44,6 @@ nav a {
     transition: .2s ease-out;
     ;
 }
-
-.uploadWhite {
-    
-    
-    cursor: pointer;
-    border: .8px #eaeaea solid;
-    border-radius: .4rem;
-    background-color: transparent !important;
-    font-size: 21px;
-    font-family: Work Sans;
-    font-weight: 500;
-    border-left: 11px solid #eaeaea;
-    z-index: 1;
-    color: #eaeaea;
-}
-
-
-
 
 .margin {
     padding-top: 50px;
@@ -111,6 +92,21 @@ nav button img {
     border-left: 11px solid #C64F51;
     z-index: 1;
     color: #eaeaea;
+    padding: .375rem .75rem;
+}
+
+.btnWhite {
+    cursor: pointer;
+    border: .8px #eaeaea solid;
+    border-radius: .4rem;
+    background-color: transparent !important;
+    font-size: 21px;
+    font-family: Work Sans;
+    font-weight: 500;
+    border-left: 11px solid #eaeaea;
+    z-index: 1;
+    color: #eaeaea;
+    padding: .375rem .75rem;
 }
 
 .centerBtn {
@@ -575,6 +571,7 @@ font-family: Work Sans,
     copia incolla dal CSS di sto tool
 */
 
+/*  OVERLINE FROM LEFT   */
 .hvr-overline-from-left {
     display: inline-block;
     vertical-align: middle;
@@ -587,6 +584,7 @@ font-family: Work Sans,
 
 .hvr-overline-from-left:before {
   content: "";
+  contentupload: "";
   position: absolute;
   z-index: -1;
   left: 0;
@@ -603,6 +601,39 @@ font-family: Work Sans,
 }
 
 .hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
+  right: 0;
+}
+
+
+/*  UNDERLINE FROM CENTER   */
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
   right: 0;
 }
 

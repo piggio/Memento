@@ -4,11 +4,11 @@ $(window).scroll(function () {
         $('nav').addClass('shrink',);
         $('#Livello_1-2').addClass('whiteLogo');
         $('.upload').removeClass('btn');
-        $('.upload').addClass('uploadWhite');
+        $('.upload').addClass('btnWhite');
     } else {
         $('nav').removeClass('shrink');
         $('#Livello_1-2').removeClass('whiteLogo');
-        $('.upload').removeClass('uploadWhite');
+        $('.upload').removeClass('btnWhite');
          $('.upload').addClass('btn');
     }
 });
