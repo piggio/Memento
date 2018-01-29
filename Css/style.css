@@ -531,7 +531,7 @@ ul.tabs li.current {
     padding: 15px;
     color: #fff;
     font-weight: 300;
-    height: 57.4vh
+    height: 57.4vh;
 }
 
 .leaflet-popup-content {
