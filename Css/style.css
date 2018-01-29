@@ -651,8 +651,12 @@ ul.tabs li.current {
 
 }
 
+<<<<<<< HEAD
 .card a,
 nav li {
+=======
+ nav li {
+>>>>>>> d34f1bfa8cfcb533684ad33d8546e20e1088dbec
     font-family: Work Sans;
     font-weight: 100;
     margin-right: 20px;
