@@ -20,6 +20,10 @@ body {
     width: 200px;
 }
 
+g{
+    fill: #C64F51;
+}
+
 .whiteLogo {
     fill: #fff;
 }
