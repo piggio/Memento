@@ -196,13 +196,31 @@ section:not(.land) {
     text-align: left;
 }
 
+#results{
+        color: #EAEAEA; !important
+
+}
 
 .subtitletto{
     font-family: Work Sans;
     font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.subtitlettino:before{
+    content: "- ";
+}
+
+.subtitlettino{
+    font-family: Work Sans;
+    font-size: 20px;
     font-weight: 500;
     color: #EAEAEA;
     text-align: left;
+    display: block;
+    color: #EAEAEA;
 }
 
 .paragraph {
@@ -415,7 +433,7 @@ li {
 .footer {
     width: 100%;
     margin-top: 77px;
-    background-color: #EAEAEA;
+    background-color:   #EAEAEA;
     padding: 10%;
 }
 
@@ -452,6 +470,7 @@ li {
 
 .input-group {
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 

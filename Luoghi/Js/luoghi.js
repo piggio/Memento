@@ -54,9 +54,17 @@ $.getJSON("../Json/data.json", function (data) {
         display: 'name',
         source: dataSource
     });
-    console.log(data.stories.title)
+
+
+
+
     $('#searchInput').bind('typeahead:select', function (e, suggestion) {
-        $('#results').append('<h1>' + data.stories.title + '</h1>')
+        console.log(suggestion)
+        
+        var storiesNmb = suggestion.infoStories.length
+        for (i = 0; i < storiesNmb; i++) {
+            $('#results').append('<a class="subtitlettino" href="#">' + suggestion.infoStories[i] + '</a>')
+        }
     });
 
 });
